@@ -1,0 +1,178 @@
+# sk – Reihenfolge exakt wie de.txt (Zeile für Zeile)
+@lm
+K Ovocie
+G Jablká a hrušky = Jablká; Červené jablká; Zelené jablká; Kyslé jablká; Sladké jablká; Bio jablká; Hrušky; Nashi hrušky; Dule
+G Banány = Banány; Bio banány; Baby banány; Plantejny
+G Kôstkové ovocie = Čerešne; Višne; Broskyne; Ploché broskyne; Nektárinky; Marhule; Slivky; Bystrické slivky; Mirabelky; Ringloty
+G Bobuľové ovocie a hrozno = Jahody; Maliny; Čučoriedky; Černice; Červené ríbezle; Čierne ríbezle; Egreše; Brusnice; Svetlé hrozno; Tmavé hrozno; Hrozno bez kôstok
+G Citrusy = Pomaranče; Pomaranče na šťavu; Krvavé pomaranče; Mandarínky; Klementínky; Citróny; Bio citróny; Limetky; Grapefruit; Pomelo; Kumkváty
+G Exotické ovocie = Mango; Ananás; Kivi; Zlaté kivi; Avokádo; Papája; Marakuja; Granátové jablko; Figy; Kaki; Liči; Dračie ovocie; Machovka (physalis); Kokosový orech; Karambola; Guava; Čerstvé datle
+G Melóny = Vodový melón; Žltý melón; Melón Galia; Melón Cantaloupe; Sieťkovaný melón
+K Zelenina
+G Zemiaky a hľuzy = Zemiaky; Zemiaky typ A (šalátové); Zemiaky typ B; Zemiaky typ C (múčnaté); Skoré zemiaky; Mini zemiaky; Batáty; Topinambur
+G Mrkva a koreňová zelenina = Mrkva; Zväzková mrkva; Paštrnák; Petržlen koreňový; Zeler buľvový; Cvikla; Reďkovka; Reďkev; Hadomor; Čerstvý chren; Polievková zelenina
+G Cibuľa a pór = Cibuľa; Červená cibuľa; Zeleninová cibuľa; Šalotka; Jarná cibuľka; Pór; Cesnak
+G Paradajky = Paradajky; Paradajky na strapci; Cherry paradajky; Koktailové paradajky; Mäsité paradajky; Paradajky roma; Datľové paradajky
+G Uhorky a papriky = Šalátová uhorka; Mini uhorky; Uhorky na dusenie; Paprika; Červená paprika; Žltá paprika; Zelená paprika; Kápia; Cukety; Baklažán; Čili papričky; Feferóny; Kukuričné klasy
+G Tekvice = Tekvica Hokkaido; Tekvica Butternut; Muškátová tekvica; Špagetová tekvica
+G Kapustová zelenina = Biela kapusta; Červená kapusta; Špicatá kapusta; Kel; Karfiol; Brokolica; Romanesco; Ružičkový kel; Kučeravý kel; Čínska kapusta; Pak choi; Kaleráb
+G Listová a stonková zelenina = Listový špenát; Mangold; Stonkový zeler; Fenikel; Biela špargľa; Zelená špargľa; Artičoky; Rebarbora
+G Čerstvá fazuľka a hrach = Zelená fazuľka; Lámaná fazuľka; Tyčková fazuľka; Cukrový hrášok; Čerstvý hrášok; Bôb; Edamame; Sójové klíčky
+G Huby = Šampiňóny; Hnedé šampiňóny; Hliva mäkká (kráľovská); Hliva ustricovitá; Kuriatka; Dubáky; Shiitake; Hubová zmes
+K Šaláty a bylinky
+G Šaláty = Hlávkový šalát; Ľadový šalát; Rímsky šalát; Valeriánka; Rukola; Lollo rosso; Lollo bianco; Dubový šalát; Radicchio; Čakanka; Endívia; Baby špenát; Šalátová zmes; Šalátové srdiečka; Žerucha
+G Čerstvé bylinky = Hladkolistý petržlen; Kučeravý petržlen; Pažítka; Kôpor; Bazalka; Koriander; Mäta; Rozmarín; Tymian; Šalvia; Čerstvé oregano; Estragón; Trebuľka; Ligurček; Medvedí cesnak; Citrónová tráva
+G Zázvor a korenie z koreňov = Zázvor; Čerstvá kurkuma; Galangal; Chren
+K Orechy, semienka a sušené ovocie
+G Celé orechy = Vlašské orechy; Lúpané vlašské orechy; Lieskové orechy; Lúpané lieskové orechy; Mandle; Kešu; Arašidy; Pražené solené arašidy; Arašidy v šupke; Pistácie; Makadamové orechy; Para orechy; Pekanové orechy; Píniové oriešky; Gaštany
+G Orechy na pečenie = Mleté mandle; Mandľové lupienky; Mandľové tyčinky; Lúpané mandle; Mleté lieskové orechy; Sekané lieskové orechy; Sekané vlašské orechy; Kokosová múčka; Orechový krokant
+G Orechové zmesi = Študentská zmes; Zmes orechov; Pražené orechy; Arašidy wasabi; Orechy v mede; Trail mix
+G Semienka = Slnečnicové semienka; Tekvicové semienka; Ľanové semienko; Drvené ľanové semienko; Chia semienka; Sezam; Čierny sezam; Konopné semienka; Mak; Psyllium; Zmes semienok do šalátu
+G Sušené ovocie = Hrozienka; Sultánky; Sušené datle; Sušené figy; Sušené marhule; Sušené slivky; Sušené brusnice; Sušené mango; Banánové čipsy; Sušené jablkové krúžky; Goji; Zmes sušeného ovocia
+K Chlieb a pečivo
+G Chlieb = Chlieb; Pšenično-ražný chlieb; Ražný chlieb; Celozrnný chlieb; Špaldový chlieb; Viaczrnný chlieb; Sedliacky chlieb; Biely chlieb; Bageta; Ciabatta; Placky; Pumpernikel; Knäckebrot
+G Toasty a tortilly = Toastový chlieb; Celozrnný toastový chlieb; Maslový toastový chlieb; Sendvičový chlieb; Wrapy; Tortilly; Pita chlieb; Chlieb naan
+G Rožky a praclíky = Žemle; Celozrnné žemle; Žemle so semienkami; Lúhové žemle; Praclíky; Žemle na dopečenie; Bageta na dopečenie; Hamburgerové žemle; Žemle na hot dog; Croissanty
+G Sladké pečivo = Vianočka; Hrozienkové žemle; Mliečne rožky; Koláč; Muffiny; Donuty; Šišky; Suchár; Cukrárske piškóty; Korpus na tortu; Čerstvé vafle
+K Mlieko, maslo a vajcia
+G Mlieko = Plnotučné mlieko; Polotučné mlieko; Trvanlivé mlieko; Čerstvé mlieko; Mlieko bez laktózy; Cmar; Kefír; Ayran
+G Rastlinné nápoje = Ovsený nápoj; Mandľový nápoj; Sójový nápoj; Ryžový nápoj; Kokosový nápoj; Ovsený nápoj Barista
+G Jogurty = Biely jogurt; Grécky jogurt; Ovocný jogurt; Vanilkový jogurt; Jogurtový nápoj; Skyr; Sójový jogurt
+G Tvaroh a dezerty = Nízkotučný tvaroh; Mäkký tvaroh; Bylinkový tvaroh; Puding; Čokoládový puding; Hotová mliečna ryža; Krupicová kaša; Čokoládová pena; Tiramisu
+G Maslo a margarín = Maslo; Sladké smotanové maslo; Solené maslo; Bylinkové maslo; Roztierateľný tuk; Margarín; Prepustené maslo
+G Smotana = Šľahačková smotana; Smotana na varenie; Kyslá smotana; Hustá kyslá smotana; Crème fraîche; Mascarpone; Šľahačka v spreji; Smotana do kávy; Kondenzované mlieko
+G Vajcia = Vajcia; Vajcia veľkosti M; Vajcia veľkosti L; Bio vajcia; Vajcia z voľného výbehu; Prepeličie vajcia; Varené vajcia
+K Syry
+G Plátkové syry = Gouda; Mladá gouda; Stredne zrelá gouda; Zrelá gouda; Maslový syr; Eidam; Ementál; Leerdammer; Tilsit; Horský syr; Maasdam; Mix plátkových syrov
+G Mäkké syry = Camembert; Brie; Feta; Balkánsky syr; Mozzarella; Byvolia mozzarella; Burrata; Kozí syr; Romadur; Tvarôžky
+G Tvrdé a strúhané syry = Parmezán; Grana Padano; Pecorino; Strúhaný syr; Syr na zapekanie; Syr na pizzu; Tvrdý syr v kuse
+G Čerstvé syry a syry na gril = Čerstvý syr; Bylinkový čerstvý syr; Cottage; Ricotta; Tavený syr; Halloumi; Syr na gril; Syr na zapečenie v rúre
+K Mäso a hydina
+G Mleté mäso = Mleté mäso mix; Mleté hovädzie; Mleté bravčové; Surové mleté bravčové (Mett); Mleté jahňacie; Mleté morčacie
+G Hovädzie = Hovädzí steak; Rumpsteak; Entrecôte; Hovädzia sviečková; Hovädzie na pečenie; Hovädzie na závitky; Hovädzie na guláš; Hovädzie na polievku; Hovädzia špička; Hovädzia kližka s kosťou
+G Bravčové = Rezne; Bravčové kotlety; Bravčová krkovička; Steaky z krkovičky; Bravčová panenka; Bravčové pečené; Bravčové na guláš; Bravčové na rezančeky; Rebierka; Bravčový bôčik; Údená krkovička (Kassler); Bravčové koleno
+G Hydina = Kuracie prsia; Kuracie stehná; Kuracie krídla; Celé kura; Kuracie rezančeky; Morčacie prsia; Morčacie rezne; Morčacie rezančeky; Kačacie prsia; Celá kačica; Hus
+G Jahňacie a divina = Jahňacie stehno; Jahňacie kotlety; Jahňací chrbát; Srnčí chrbát; Srnčí guláš; Jelení guláš; Diviačie pečené; Králik
+G Na gril a klobásy = Klobása na gril; Grilovacia klobása; Norimberské klobásky; Krakovská klobása; Viedenské párky; Frankfurtské párky; Špekačky; Biela klobása; Leberkäse; Grilovací bôčik na špíze; Marinované steaky; Čevapčiči; Šašlik; Gyros
+K Údeniny a nárezy
+G Šunka = Šunka; Schwarzwaldská šunka; Lososová šunka; Serrano šunka; Parmská šunka; Údená šunka (orech)
+G Nárezy = Saláma; Mortadela; Gothajská saláma; Lyonská saláma; Žltá saláma; Pivná šunková saláma; Lovecká saláma; Morčacie prsia v plátkoch; Kuracie prsia v plátkoch; Corned beef; Huspenina; Mix nárezov
+G Nátierkové údeniny = Pečeňová paštéta; Teewurst; Cibuľová Mettwurst; Krvavnička; Pečeňová pena; Hrubá pečeňová paštéta
+G Slanina a klobásky = Kocky slaniny; Anglická slanina; Raňajková slanina; Mettwurst; Kabanos; Landjäger; Chorizo; Mini salámky
+K Ryby a morské plody
+G Čerstvé ryby = Lososový filet; Pstruh; Treska; Tmavá treska (Seelachs); Pražma; Morský vlk; Zubáč; Steak z tuniaka; Platesa; Morský ostriež
+G Údené a marinované = Údený losos; Losos gravlax; Údený pstruh; Údená makrela; Matjes; Zavináče Bismarck; Zavináče; Sleďový šalát; Vyprážaný sleď; Sleď v smotane
+G Morské plody = Krevety; Garnáty; Severomorské krevety; Mušle; Krúžky z kalamára; Kalamáre; Surimi
+G Rybie konzervy = Tuniak v konzerve; Tuniak v oleji; Sardinky; Makrela v paradajkovej omáčke; Sleď v paradajkovej omáčke; Ančovičky
+K Vegetariánske a lahôdky
+G Náhrady mäsa = Tofu; Údené tofu; Hodvábne tofu; Tempeh; Vegetariánske burgery; Vegetariánske mleté; Vegetariánske párky; Vegetariánska nárezová saláma; Vegetariánsky rezeň; Falafel
+G Lahôdkové šaláty = Zemiakový šalát; Cestovinový šalát; Kapustový šalát; Vlašský šalát; Vajíčkový šalát; Tuniakový šalát; Kurací šalát; Waldorfský šalát
+G Dipy a nátierky = Hummus; Tzatziki; Guacamole; Aioli; Salsa dip; Bylinkový dip; Papriková nátierka; Vegánska nátierka
+G Čerstvé cestoviny = Čerstvé tortellini; Čerstvé ravioli; Gnocchi; Maultaschen; Čerstvé halušky (Spätzle); Šúľance; Čerstvé cestoviny
+K Cestoviny, ryža a strukoviny
+G Cestoviny = Špagety; Spaghettini; Penne; Fusilli; Farfalle; Rigatoni; Tagliatelle; Široké rezance; Makaróny; Pláty na lasagne; Cannelloni; Vaječné cestoviny; Celozrnné cestoviny; Polievkové rezance; Kolienka; Sušené Spätzle
+G Ázijské rezance = Rezance mie; Sklenené rezance; Ryžové rezance; Rezance udon; Instantné rezance
+G Ryža = Ryža; Dlhozrnná ryža; Ryža basmati; Jazmínová ryža; Ryža na rizoto; Mliečna ryža; Natural ryža; Divoká ryža; Ryža na sushi; Ryža vo varných vrecúškach
+G Obilniny a prílohy = Kuskus; Bulgur; Quinoa; Pšeno; Polenta; Krupica; Zemiaková kaša v prášku; Zemiakové knedle; Žemľové knedle; Cesto na knedle; Strúhanka
+G Sušené strukoviny = Červená šošovica; Hnedá šošovica; Veľkozrnná šošovica; Šošovica beluga; Sušený cícer; Sušená biela fazuľa; Lúpaný hrach; Zmes fazule
+K Konzervy a poháre
+G Paradajky = Pretlačené paradajky (passata); Krájané paradajky; Lúpané paradajky; Paradajkový pretlak; Paradajky na pizzu; Sušené paradajky
+G Zelenina v konzerve a pohári = Kukurica; Fazuľa kidney; Biela fazuľa v konzerve; Cícer v konzerve; Šošovica v konzerve; Hrášok s mrkvou; Zelená fazuľka v pohári; Šampiňóny v konzerve; Cvikla v pohári; Kyslá kapusta; Červená kapusta v pohári; Špargľa v pohári
+G Kyslé a antipasti = Sterilizované uhorky; Cornichons; Perlová cibuľka; Mixed pickles; Zelené olivy; Čierne olivy; Kapary; Jalapeños; Nakladané feferóny; Antipasti; Artičokové srdcia
+G Ovocie v konzerve a pohári = Jablkové pyré; Broskyne v konzerve; Ananás v konzerve; Mandarínky v konzerve; Višne v pohári; Hrušky v konzerve; Ovocný koktail; Brusnice (kompót)
+G Polievky a hotové jedlá = Polievka v konzerve; Hustá polievka (Eintopf); Gulášová polievka; Hrachová polievka; Šošovicová polievka; Ravioli v konzerve; Chilli con carne v konzerve; Vrecková polievka; Hotové jedlo; Zemiaková polievka
+K Pečenie
+G Múka a škrob = Múka; Hladká múka (405); Polohrubá múka (550); Špaldová múka; Celozrnná múka; Ražná múka; Kukuričný škrob; Múka na pizzu
+G Cukor a sladidlá = Cukor; Práškový cukor; Hnedý cukor; Trstinový cukor; Želírovací cukor; Vanilkový cukor; Perlový cukor; Sladidlo; Xylitol
+G Prísady na pečenie = Prášok do pečiva; Sušené droždie; Čerstvé droždie; Jedlá sóda; Želatína; Agar; Kakao na pečenie; Čokoládová poleva (couverture); Čokoládové kvapky; Čokoládové posýpky; Cukrové posýpky; Tortové želé; Pudingový prášok; Stužovač šľahačky; Arómy na pečenie; Strúhaná citrónová kôra; Kandizovaná pomarančová kôra; Kandizovaná citrónová kôra; Marcipán; Fondán
+G Cestá a zmesi na pečenie = Lístkové cesto; Cesto na pizzu; Krehké cesto; Kysnuté cesto; Cesto na štrúdľu; Cesto na tarte flambée; Cesto na croissanty; Zmes na koláč; Zmes na chlieb; Zmes na palacinky
+K Korenie, olej a omáčky
+G Soľ a korenie = Soľ; Jódovaná soľ; Morská soľ; Bylinková soľ; Čierne korenie; Farebné korenie; Biele korenie; Celé čierne korenie
+G Koreniny = Sladká paprika; Štipľavá paprika; Údená paprika; Karí; Kurkuma; Rímska rasca; Rasca; Škorica; Muškátový oriešok; Čili vločky; Kajenské korenie; Cesnak sušený mletý; Cibuľa sušená mletá; Mletý zázvor; Klinčeky; Bobkový list; Borievky; Nové korenie; Badián; Vanilkový struk; Kardamóm; Garam masala
+G Sušené bylinky a zmesi = Oregano; Sušená bazalka; Sušený tymian; Sušený rozmarín; Majorán; Sušený petržlen; Sušená pažítka; Sušený kôpor; Provensálske bylinky; Talianske bylinky; Bylinky do šalátu; Grilovacie korenie; Korenie na gyros; Korenie na kurča; Korenie na hranolky
+G Olej a tuk = Olivový olej; Repkový olej; Slnečnicový olej; Kokosový olej; Sezamový olej; Ľanový olej; Orechový olej; Olej na vyprážanie; Fritovací tuk
+G Ocot a citrón = Balzamikový ocot; Balzamikový krém; Ocot z bieleho vína; Jablčný ocot; Bylinkový ocot; Kvasný ocot; Citrónová šťava; Limetková šťava
+G Horčica, kečup a majonéza = Kečup; Karí kečup; Majonéza; Šalátová majonéza; Stredne ostrá horčica; Ostrá horčica; Sladká horčica; Dijonská horčica; Remuláda; Chren v pohári
+G Omáčky a grilovacie omáčky = Grilovacia omáčka; BBQ omáčka; Cesnaková omáčka; Koktailová omáčka; Sójová omáčka; Worcestrová omáčka; Tabasco; Sriracha; Sladká čili omáčka; Teriyaki omáčka; Pesto genovese; Červené pesto; Šalátový dresing; Maggi
+G Vývary a zahusťovadlá = Zeleninový vývar; Kurací vývar; Hovädzí vývar; Fond; Omáčka k pečienke; Svetlá omáčka; Holandská omáčka; Zahusťovadlo na omáčky; Hotové koreniace zmesi (Fix); Kokosové mlieko; Karí pasta
+K Mrazené
+G Mrazená zelenina a bylinky = Mrazený hrášok; Mrazený listový špenát; Mrazený krémový špenát; Mrazená brokolica; Mrazený ružičkový kel; Mrazená zelená fazuľka; Mrazená zeleninová zmes; Mrazená cisárska zmes; Mrazená polievková zelenina; Mrazené bylinky; Mrazená cibuľa
+G Mrazené zemiaky = Hranolky; Krokety; Rösti; Americké zemiaky; Mrazené opekané zemiaky; Zemiakové placky; Plnené zemiakové taštičky
+G Mrazené ryby a mäso = Rybie prsty; Zapečený rybí filet; Mrazený lososový filet; Mrazené krevety; Ryba v cestíčku; Kuracie nugetky; Mrazené kuracie krídla; Cordon bleu; Mrazené mleté mäso
+G Mrazené hotové jedlá = Pizza; Pizza z kamennej pece; Bagetová pizza; Tarte flambée; Mrazené lasagne; Mrazené jedlo na panvicu; Jarné závitky; Zeleninové fašírky; Mrazené burgerové mäso; Šúľance na panvicu
+G Mrazené ovocie a pečivo = Mrazená zmes lesného ovocia; Mrazené maliny; Mrazené jahody; Mrazené mango; Mrazené pečivo na dopečenie; Mrazené praclíky; Mrazená torta; Mrazená jablková štrúdľa; Mrazený koláč
+G Zmrzlina = Vanilková zmrzlina; Čokoládová zmrzlina; Stracciatella zmrzlina; Nanuky; Zmrzlinové bonbóny; Sorbet; Zmrzlinová torta; Kocky ľadu
+K Raňajky a nátierky
+G Müsli a vločky = Jemné ovsené vločky; Celé ovsené vločky; Müsli; Ovocné müsli; Chrumkavé müsli; Čokoládové müsli; Granola; Kukuričné lupienky; Ovsená kaša; Cereálie
+G Džem a med = Džem; Jahodový džem; Marhuľový džem; Čerešňový džem; Malinový džem; Pomarančový džem; Slivkový lekvár; Med; Lesný med; Pastovaný med; Repný sirup; Javorový sirup; Agávový sirup
+G Orechové a čokoládové nátierky = Orieškovo-nugátový krém; Arašidové maslo; Chrumkavé arašidové maslo; Mandľové maslo; Lieskovoorieškové maslo; Kešu maslo; Čokoládový krém
+K Sladkosti a pochutiny
+G Čokoláda = Mliečna čokoláda; Horká čokoláda; Biela čokoláda; Oriešková čokoláda; Čokoláda s celými orieškami; Čokoládové tyčinky; Pralinky; Čokoládové bonbóny
+G Keksy a pečivo = Keksy; Maslové sušienky; Čokoládové keksy; Plnené sušienky; Oblátky; Cantuccini; Špekulky; Medovníky; Dominosteine; Štóla; Ryžové chlebíčky; Müsli tyčinky
+G Cukrovinky = Gumové medvedíky; Kyslé želé cukríky; Sladké drievko; Cukríky; Cukríky proti kašľu; Žuvačky; Marshmallow; Penové čokoládové špičky
+G Čipsy a slané = Čipsy; Solené čipsy; Paprikové čipsy; Kettle čipsy; Tortilla čipsy; Slané tyčinky; Slané praclíky; Arašidové chrumky; Popcorn; Krekry; Syrové pečivo
+K Káva, čaj a kakao
+G Káva = Káva; Zrnková káva; Mletá káva; Espresso; Zrnkové espresso; Kávové pody; Kávové kapsuly; Instantná káva; Káva bez kofeínu; Cappuccino v prášku
+G Čaj = Čierny čaj; Zelený čaj; Mätový čaj; Harmančekový čaj; Ovocný čaj; Bylinkový čaj; Feniklový čaj; Rooibos; Zázvorový čaj; Šalviový čaj; Čaj na prechladnutie
+G Kakao = Kakao na pitie; Kakaový prášok; Horúca čokoláda
+K Nápoje
+G Voda = Minerálna voda; Perlivá minerálna voda; Jemne perlivá voda; Neperlivá voda; Liečivá voda
+G Džúsy = Pomarančový džús; Jablkový džús; Jablkový strik; Multivitamínový džús; Hroznový džús; Višňový džús; Paradajková šťava; Grapefruitový džús; Smoothie; Priamo lisovaný džús
+G Limonády a nealko = Kola; Kola Zero; Pomarančová limonáda; Citrónová limonáda; Kola s pomarančom (Spezi); Ľadový čaj broskyňa; Ľadový čaj citrón; Energetický nápoj; Tonic; Ginger ale; Bitter lemon; Sirup
+G Pivo = Pivo; Pils; Svetlý ležiak; Pšeničné pivo; Nealkoholické pivo; Nealkoholické pšeničné pivo; Radler; Export; Kölsch; Sladové pivo
+G Víno a sekt = Červené víno; Biele víno; Ružové víno; Sekt; Prosecco; Šampanské; Nealkoholické víno; Varené víno; Víno na varenie
+G Liehoviny = Borovička; Vodka; Rum; Gin; Whisky; Brandy; Likér; Vaječný likér; Bylinný likér; Aperol; Ovocná pálenka
+@hh
+K Upratovanie a čistenie
+G Čistiace prostriedky = Univerzálny čistič; Čistič na kúpeľne; Čistič WC; WC závesy; Čistič na okná; Čistič na kuchyne; Odmasťovač; Odvápňovač; Tekutý piesok; Čistič na podlahy; Starostlivosť o drevo; Čistič rúr; Čistič odpadov; Dezinfekcia; Starostlivosť o nerez
+G Pomôcky na upratovanie = Špongie; Utierky na riad; Mikrovláknové utierky; Handry na upratovanie; Gumené rukavice; Náhradný mop; Drôtenka; Kefa na riad; WC kefa; Vrecká do vysávača
+K Umývanie riadu a kuchyňa
+G Riad = Prostriedok na riad; Tablety do umývačky; Leštidlo do umývačky; Soľ do umývačky; Čistič umývačky
+G Fólie a vrecká = Kuchynské utierky; Alobal; Potravinová fólia; Papier na pečenie; Vrecká do mrazničky; Vrecká na chlieb; Desiatový papier; Malé vrecia na odpad; Veľké vrecia na odpad; Vrecká na bioodpad; Vrecia na separovaný odpad; Filtre na kávu
+G Stôl a oslava = Servítky; Špáradlá; Podpaľovač na gril; Sviečky; Čajové sviečky; Zápalky; Zapaľovač; Papierové taniere; Jednorazové poháre; Slamky
+K Pranie
+G Pracie prostriedky = Prací prostriedok; Univerzálny prací prášok; Prací prostriedok na farebné prádlo; Prací prostriedok na jemné prádlo; Prací prostriedok na vlnu; Prací prostriedok na čierne prádlo; Pracie kapsuly; Aviváž; Hygienický máchací prostriedok; Odstraňovač škvŕn; Žlčové mydlo; Obrúsky proti zafarbeniu; Čistič práčky
+G Pomôcky na pranie = Štipce na prádlo; Sieťka na pranie; Voda do žehličky; Obrúsky do sušičky
+K Papier a vreckovky
+G Papier = Toaletný papier; Vlhčený toaletný papier; Vreckovky; Vreckovky v krabici; Kozmetické vreckovky; Vlhčené obrúsky
+K Starostlivosť o telo
+G Sprcha a kúpeľ = Sprchový gél; Mydlo; Tekuté mydlo; Náhradná náplň mydla; Pena do kúpeľa; Peeling
+G Vlasy = Šampón; Kondicionér; Maska na vlasy; Gél na vlasy; Lak na vlasy; Vosk na vlasy; Farba na vlasy; Gumičky do vlasov
+G Pleť a krémy = Telové mlieko; Krém na ruky; Pleťový krém; Nočný krém; Krém na nohy; Opaľovací krém; Krém po opaľovaní; Balzam na pery; Vazelína
+G Dezodorant a holenie = Dezodorant; Guľôčkový dezodorant; Pena na holenie; Gél na holenie; Žiletky; Jednorazové holiace strojčeky; Voda po holení; Parfum
+G Kozmetika a dámska hygiena = Odličovacie tampóny; Vatové tyčinky; Odličovacie obrúsky; Odličovač; Pilník na nechty; Odlakovač; Vložky; Tampóny; Slipové vložky
+G Starostlivosť o zuby = Zubná pasta; Zubná kefka; Náhradné hlavice; Zubná niť; Ústna voda; Medzizubné kefky; Fixačný krém; Čistič zubných protéz
+K Zdravie
+G Domáca lekárnička = Náplasti; Náplasti na pľuzgiere; Gázový obväz; Lieky proti bolesti; Teplomer; Nosový sprej; Pastilky na hrdlo; Hojivá masť; Dezinfekčný sprej; Hrejivé náplasti; Chladiace vankúšiky; Repelent
+G Vitamíny a doplnky = Vitamínové tablety; Vitamín D; Horčík; Zinok; Šumivé tablety; Proteínový prášok
+K Domáce potreby
+G Technika a drobnosti = Batérie AA; Batérie AAA; Gombíkové batérie; Batéria 9V; LED žiarovka; Žiarovka; Predlžovací kábel; Nabíjací kábel; Lepiaca páska; Baliaca páska; Sekundové lepidlo; Univerzálne lepidlo; Nožnice; Guľôčkové pero; Poznámkový blok; Baliaci papier
+G Záhrada a gril = Drevené uhlie; Brikety na gril; Záhradný substrát; Hnojivo; Kvety; Rastliny; Krmivo pre vtáky; Posypová soľ
+G Auto = Kvapalina do ostrekovačov; Nemrznúca zmes; Škrabka na ľad; Motorový olej
+K Potreby pre zvieratá
+G Pes = Kapsičky pre psy; Granule pre psy; Maškrty pre psy; Žuvacie kosti; Vrecká na psie exkrementy
+G Mačka = Kapsičky pre mačky; Granule pre mačky; Maškrty pre mačky; Podstielka pre mačky
+K Bábätko a dieťa
+G Bábätko = Plienky; Vlhčené obrúsky pre deti; Detská výživa; Detská kaša; Krém na zapareniny; Detský šampón
+@kl
+K Spodná bielizeň a ponožky
+G Spodná bielizeň = Spodky; Boxerky; Nohavičky; Podprsenka; Tielko; Termobielizeň; Dlhé spodky
+G Ponožky a pančuchy = Ponožky; Členkové ponožky; Športové ponožky; Pracovné ponožky; Vlnené ponožky; Podkolienky; Pančuchové nohavice; Kompresné pančuchy
+K Vrchné oblečenie
+G Tričká a košele = Tričko; Tričko s dlhým rukávom; Polokošeľa; Top; Košeľa; Blúzka
+G Svetre a mikiny = Sveter; Kardigan; Mikina; Mikina s kapucňou; Flísová bunda
+K Nohavice, sukne a šaty
+G Nohavice = Džínsy; Chino nohavice; Látkové nohavice; Tepláky; Legíny; Kraťasy; Cargo nohavice
+G Sukne a šaty = Sukňa; Šaty; Letné šaty
+K Bundy a kabáty
+G Bundy = Bunda; Prechodná bunda; Bunda do dažďa; Zimná bunda; Softshellová bunda; Vesta; Kabát; Oblek; Sako
+K Spánok, šport a kúpanie
+G Nočná bielizeň = Pyžamo; Nočná košeľa; Župan
+G Šport a kúpanie = Športové tričko; Športové nohavice; Tepláková súprava; Pánske plavky; Dámske plavky; Bikiny
+K Pracovné oblečenie
+G Práca = Pracovné nohavice; Pracovná bunda; Pracovné tričko; Pracovný sveter; Chrániče kolien; Pracovné rukavice; Pracovná obuv; Bezpečnostná obuv; Reflexná vesta
+K Obuv
+G Obuv = Tenisky; Poltopánky; Čižmy; Zimné čižmy; Papuče; Sandále; Šľapky; Gumáky; Turistická obuv
+G Starostlivosť o obuv = Šnúrky; Vložky do topánok; Krém na topánky; Impregnačný sprej
+K Doplnky
+G Doplnky = Čiapka; Šiltovka; Šál; Rukavice; Opasok; Kravata; Slnečné okuliare; Dáždnik; Taška; Peňaženka

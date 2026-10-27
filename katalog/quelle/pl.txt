@@ -1,0 +1,178 @@
+# pl – Reihenfolge exakt wie de.txt (Zeile für Zeile)
+@lm
+K Owoce
+G Jabłka i gruszki = Jabłka; Jabłka czerwone; Jabłka zielone; Jabłka kwaśne; Jabłka słodkie; Jabłka bio; Gruszki; Gruszki nashi; Pigwa
+G Banany = Banany; Banany bio; Banany baby; Banany plantan
+G Owoce pestkowe = Czereśnie; Wiśnie; Brzoskwinie; Brzoskwinie płaskie; Nektarynki; Morele; Śliwki; Węgierki; Mirabelki; Renklody
+G Jagody i winogrona = Truskawki; Maliny; Borówki amerykańskie; Jeżyny; Porzeczki czerwone; Porzeczki czarne; Agrest; Żurawina; Winogrona jasne; Winogrona ciemne; Winogrona bezpestkowe
+G Cytrusy = Pomarańcze; Pomarańcze do wyciskania; Pomarańcze czerwone; Mandarynki; Klementynki; Cytryny; Cytryny bio; Limonki; Grejpfrut; Pomelo; Kumkwaty
+G Owoce egzotyczne = Mango; Ananas; Kiwi; Kiwi złote; Awokado; Papaja; Marakuja; Granat; Figi; Kaki; Liczi; Pitaja; Miechunka (physalis); Kokos; Karambola; Guawa; Świeże daktyle
+G Melony = Arbuz; Melon miodowy; Melon Galia; Melon kantalupa; Melon siatkowy
+K Warzywa
+G Ziemniaki i bulwy = Ziemniaki; Ziemniaki sałatkowe; Ziemniaki ogólnoużytkowe; Ziemniaki mączyste; Młode ziemniaki; Ziemniaki drobne; Bataty; Topinambur
+G Marchew i warzywa korzeniowe = Marchew; Marchew pęczkowa; Pasternak; Pietruszka korzeń; Seler korzeniowy; Buraki; Rzodkiewki; Rzodkiew; Skorzonera; Świeży chrzan; Włoszczyzna
+G Cebula i por = Cebula; Czerwona cebula; Cebula cukrowa; Szalotki; Dymka; Por; Czosnek
+G Pomidory = Pomidory; Pomidory na gałązce; Pomidory koktajlowe cherry; Pomidory koktajlowe; Pomidory malinowe; Pomidory podłużne (roma); Pomidory daktylowe
+G Ogórki i papryka = Ogórek sałatkowy; Ogórki mini; Ogórki do duszenia; Papryka; Papryka czerwona; Papryka żółta; Papryka zielona; Papryka szpiczasta; Cukinia; Bakłażan; Papryczki chili; Peperoni; Kolby kukurydzy
+G Dynie = Dynia hokkaido; Dynia piżmowa (butternut); Dynia muszkatołowa; Dynia makaronowa
+G Kapustne = Kapusta biała; Kapusta czerwona; Kapusta szpiczasta; Kapusta włoska; Kalafior; Brokuł; Romanesco; Brukselka; Jarmuż; Kapusta pekińska; Pak choi; Kalarepa
+G Warzywa liściaste i łodygowe = Szpinak w liściach; Boćwina; Seler naciowy; Koper włoski (fenkuł); Szparagi białe; Szparagi zielone; Karczochy; Rabarbar
+G Świeża fasolka i groszek = Fasolka szparagowa; Fasolka łamana; Fasola tyczna; Groszek cukrowy; Świeży groszek; Bób; Edamame; Kiełki sojowe
+G Grzyby = Pieczarki; Pieczarki brązowe; Boczniak królewski; Boczniaki; Kurki; Borowiki; Shiitake; Mieszanka grzybów
+K Sałaty i zioła
+G Sałaty = Sałata masłowa; Sałata lodowa; Sałata rzymska; Roszponka; Rukola; Lollo rosso; Lollo bianco; Sałata dębolistna; Radicchio; Cykoria; Endywia; Baby szpinak; Mieszanka sałat; Serca sałaty; Rzeżucha
+G Świeże zioła = Natka pietruszki gładka; Natka pietruszki kędzierzawa; Szczypiorek; Koperek; Bazylia; Kolendra; Mięta; Rozmaryn; Tymianek; Szałwia; Świeże oregano; Estragon; Trybula; Lubczyk; Czosnek niedźwiedzi; Trawa cytrynowa
+G Imbir i korzenie przyprawowe = Imbir; Świeża kurkuma; Galangal; Chrzan
+K Orzechy, pestki i bakalie
+G Orzechy całe = Orzechy włoskie; Orzechy włoskie łuskane; Orzechy laskowe; Orzechy laskowe łuskane; Migdały; Nerkowce; Orzeszki ziemne; Orzeszki prażone solone; Orzeszki w łupinach; Pistacje; Orzechy makadamia; Orzechy brazylijskie; Orzechy pekan; Orzeszki piniowe; Kasztany jadalne
+G Orzechy do pieczenia = Migdały mielone; Płatki migdałowe; Słupki migdałowe; Migdały blanszowane; Orzechy laskowe mielone; Orzechy laskowe siekane; Orzechy włoskie siekane; Wiórki kokosowe; Krokant
+G Mieszanki orzechów = Mieszanka studencka; Mieszanka orzechów; Orzechy prażone; Orzeszki wasabi; Orzechy w miodzie; Trail mix
+G Pestki i nasiona = Pestki słonecznika; Pestki dyni; Siemię lniane; Siemię lniane mielone; Nasiona chia; Sezam; Sezam czarny; Nasiona konopi; Mak; Babka płesznik (łuski); Mieszanka pestek do sałatek
+G Bakalie = Rodzynki; Sułtanki; Daktyle suszone; Figi suszone; Morele suszone; Śliwki suszone; Żurawina suszona; Mango suszone; Chipsy bananowe; Suszone krążki jabłkowe; Jagody goji; Mieszanka bakalii
+K Pieczywo
+G Chleb = Chleb; Chleb mieszany; Chleb żytni; Chleb pełnoziarnisty; Chleb orkiszowy; Chleb wieloziarnisty; Chleb wiejski; Chleb pszenny; Bagietka; Ciabatta; Placki (podpłomyki); Pumpernikiel; Pieczywo chrupkie
+G Tosty i wrapy = Chleb tostowy; Chleb tostowy pełnoziarnisty; Chleb tostowy maślany; Chleb kanapkowy; Wrapy; Tortille; Pita; Chlebek naan
+G Bułki i precle = Bułki; Bułki pełnoziarniste; Bułki z ziarnami; Bułki precelkowe; Precle; Bułki do odpiekania; Bagietka do odpiekania; Bułki do burgerów; Bułki do hot dogów; Rogaliki francuskie
+G Słodkie wypieki = Chałka; Bułki z rodzynkami; Bułki mleczne; Ciasto; Muffinki; Donuty; Pączki; Sucharki; Biszkopty podłużne; Spód do tortu; Świeże gofry
+K Mleko, masło i jajka
+G Mleko = Mleko pełne; Mleko półtłuste; Mleko UHT; Mleko świeże; Mleko bez laktozy; Maślanka; Kefir; Ajran
+G Napoje roślinne = Napój owsiany; Napój migdałowy; Napój sojowy; Napój ryżowy; Napój kokosowy; Napój owsiany barista
+G Jogurty = Jogurt naturalny; Jogurt grecki; Jogurt owocowy; Jogurt waniliowy; Jogurt pitny; Skyr; Jogurt sojowy
+G Twaróg i desery = Twarożek chudy; Twarożek; Twarożek ziołowy; Budyń; Budyń czekoladowy; Ryż na mleku gotowy; Kaszka manna na mleku; Mus czekoladowy; Tiramisu
+G Masło i margaryna = Masło; Masło śmietankowe; Masło solone; Masło ziołowe; Miks tłuszczowy; Margaryna; Masło klarowane
+G Śmietana = Śmietanka kremówka; Śmietanka do gotowania; Śmietana kwaśna; Śmietana gęsta (18%); Crème fraîche; Mascarpone; Bita śmietana w sprayu; Śmietanka do kawy; Mleko skondensowane
+G Jajka = Jajka; Jajka rozmiar M; Jajka rozmiar L; Jajka ekologiczne; Jajka z wolnego wybiegu; Jajka przepiórcze; Jajka gotowane
+K Sery
+G Sery w plastrach = Gouda; Gouda młoda; Gouda średnio dojrzała; Gouda dojrzała; Ser maślany; Edamski; Ementaler; Leerdammer; Tylżycki; Ser górski; Maasdamer; Plastry serów mix
+G Sery miękkie = Camembert; Brie; Feta; Ser typu bałkańskiego; Mozzarella; Mozzarella z mleka bawolego; Burrata; Ser kozi; Romadur; Ser harceński
+G Sery twarde i tarte = Parmezan; Grana Padano; Pecorino; Ser tarty; Ser do zapiekanek; Ser do pizzy; Ser twardy w kawałku
+G Serki i sery do grillowania = Serek śmietankowy; Serek śmietankowy z ziołami; Serek wiejski; Ricotta; Ser topiony; Halloumi; Ser do grillowania; Ser do zapiekania w piekarniku
+K Mięso i drób
+G Mięso mielone = Mięso mielone mieszane; Wołowina mielona; Wieprzowina mielona; Tatar wieprzowy (mett); Jagnięcina mielona; Indyk mielony
+G Wołowina = Stek wołowy; Rumsztyk; Antrykot; Polędwica wołowa; Wołowina na pieczeń; Wołowina na zrazy; Wołowina na gulasz; Wołowina na rosół; Ligawa (tafelspitz); Pręga wołowa
+G Wieprzowina = Sznycle; Kotlety schabowe z kością; Karkówka; Steki z karkówki; Polędwiczka wieprzowa; Pieczeń wieprzowa; Wieprzowina na gulasz; Wieprzowina w paski; Żeberka; Boczek surowy; Schab wędzony (kasseler); Golonka
+G Drób = Filet z piersi kurczaka; Udka z kurczaka; Skrzydełka z kurczaka; Cały kurczak; Kurczak w paski; Pierś z indyka; Sznycle z indyka; Indyk w paski; Pierś z kaczki; Cała kaczka; Gęś
+G Jagnięcina i dziczyzna = Udziec jagnięcy; Kotleciki jagnięce; Comber jagnięcy; Comber sarni; Gulasz z sarny; Gulasz z jelenia; Pieczeń z dzika; Królik
+G Na grilla i kiełbaski = Kiełbasa do smażenia; Kiełbasa z grilla; Kiełbaski norymberskie; Kiełbasa krakowska; Parówki wiedeńskie; Parówki frankfurterki; Serdelki; Białe kiełbaski bawarskie; Leberkäse; Szaszłyki z boczku; Steki marynowane; Ćevapčići; Szaszłyki; Gyros
+K Wędliny
+G Szynka = Szynka gotowana; Szynka szwarcwaldzka; Polędwica łososiowa; Szynka serrano; Szynka parmeńska; Szynka wędzona
+G Wędliny w plastrach = Salami; Mortadela; Kiełbasa szynkowa; Kiełbasa lyońska; Kiełbasa biała parzona (gelbwurst); Szynka piwna; Kiełbasa myśliwska; Pierś z indyka w plastrach; Pierś z kurczaka w plastrach; Corned beef; Galareta mięsna; Wędliny mix
+G Wędliny do smarowania = Wątrobianka; Metka; Metka cebulowa; Kaszanka; Pasztet z wątróbki; Wątrobianka grubo mielona
+G Boczek i kiełbaski = Boczek w kostkę; Bekon; Boczek śniadaniowy; Kiełbasa metka twarda; Kabanosy; Kiełbaski landjäger; Chorizo; Mini salami
+K Ryby i owoce morza
+G Świeże ryby = Filet z łososia; Pstrąg; Dorsz; Czarniak; Dorada; Labraks; Sandacz; Stek z tuńczyka; Gładzica; Karmazyn
+G Wędzone i marynowane = Łosoś wędzony; Łosoś gravlax; Pstrąg wędzony; Makrela wędzona; Śledzie matjas; Śledzie bismarck; Rolmopsy; Sałatka śledziowa; Śledź smażony w occie; Śledzie w śmietanie
+G Owoce morza = Krewetki; Krewetki koktajlowe; Krewetki bałtyckie; Małże; Krążki kalmarów; Kalmary; Surimi
+G Ryby w puszkach = Tuńczyk w puszce; Tuńczyk w oleju; Sardynki; Makrela w sosie pomidorowym; Śledź w sosie pomidorowym; Anchois
+K Wegetariańskie i delikatesy
+G Zamienniki mięsa = Tofu; Tofu wędzone; Tofu jedwabiste; Tempeh; Burgery wege; Mielone wege; Parówki wege; Wędlina wege; Sznycel wege; Falafel
+G Sałatki delikatesowe = Sałatka ziemniaczana; Sałatka makaronowa; Surówka z kapusty; Sałatka mięsna; Sałatka jajeczna; Sałatka z tuńczykiem; Sałatka z kurczakiem; Sałatka Waldorf
+G Dipy i pasty = Hummus; Tzatziki; Guacamole; Aioli; Salsa; Dip ziołowy; Pasta paprykowa; Pasta kanapkowa wegańska
+G Świeże makarony = Świeże tortellini; Świeże ravioli; Gnocchi; Pierogi szwabskie (maultaschen); Świeże spätzle; Kopytka; Świeży makaron
+K Makaron, ryż i strączkowe
+G Makaron = Spaghetti; Spaghettini; Penne; Świderki; Kokardki; Rigatoni; Tagliatelle; Makaron wstążki; Makaron rurki; Płaty lasagne; Cannelloni; Makaron jajeczny; Makaron pełnoziarnisty; Makaron do zupy; Kolanka; Suszone spätzle
+G Makaron azjatycki = Makaron mie; Makaron sojowy (szklany); Makaron ryżowy; Makaron udon; Zupka chińska
+G Ryż = Ryż; Ryż długoziarnisty; Ryż basmati; Ryż jaśminowy; Ryż do risotto; Ryż do deserów; Ryż brązowy; Ryż dziki; Ryż do sushi; Ryż w torebkach
+G Kasze i dodatki = Kuskus; Bulgur; Komosa ryżowa; Kasza jaglana; Polenta; Kasza manna; Puree ziemniaczane w proszku; Knedle ziemniaczane; Knedle bułczane; Ciasto na kluski; Bułka tarta
+G Strączkowe suszone = Soczewica czerwona; Soczewica brązowa; Soczewica zielona; Soczewica beluga; Ciecierzyca suszona; Fasola biała suszona; Groch łuskany; Mieszanka fasoli
+K Konserwy i słoiki
+G Pomidory = Passata; Pomidory krojone; Pomidory bez skórki; Koncentrat pomidorowy; Pomidory do pizzy; Suszone pomidory
+G Warzywa w puszce i słoiku = Kukurydza; Fasola czerwona; Fasola biała z puszki; Ciecierzyca z puszki; Soczewica z puszki; Groszek z marchewką; Fasolka szparagowa w słoiku; Pieczarki z puszki; Buraczki w słoiku; Kapusta kiszona; Czerwona kapusta w słoiku; Szparagi w słoiku
+G Kiszonki i antipasti = Ogórki konserwowe; Korniszony; Cebulki perłowe; Mixed pickles; Oliwki zielone; Oliwki czarne; Kapary; Jalapeño; Peperoni marynowane; Antipasti; Serca karczochów
+G Owoce w puszce i słoiku = Mus jabłkowy; Brzoskwinie z puszki; Ananas z puszki; Mandarynki z puszki; Wiśnie w słoiku; Gruszki z puszki; Koktajl owocowy; Borówki brusznice
+G Zupy i dania gotowe = Zupa w puszce; Eintopf (gęsta zupa); Zupa gulaszowa; Grochówka; Zupa z soczewicy; Ravioli z puszki; Chili con carne z puszki; Zupa w proszku; Danie gotowe; Zupa ziemniaczana
+K Pieczenie
+G Mąka i skrobia = Mąka; Mąka pszenna typ 450; Mąka pszenna typ 550; Mąka orkiszowa; Mąka pełnoziarnista; Mąka żytnia; Skrobia kukurydziana; Mąka do pizzy
+G Cukier i słodziki = Cukier; Cukier puder; Cukier brązowy; Cukier trzcinowy; Cukier żelujący; Cukier waniliowy; Cukier perlisty; Słodzik; Ksylitol
+G Dodatki do pieczenia = Proszek do pieczenia; Drożdże suszone; Drożdże świeże; Soda oczyszczona; Żelatyna; Agar; Kakao do pieczenia; Czekolada deserowa (kuwertura); Kropelki czekoladowe; Posypka czekoladowa; Posypka cukrowa; Galaretka do tortów; Budyń w proszku; Śnieżka (utrwalacz śmietany); Aromaty do ciast; Skórka cytrynowa tarta; Skórka pomarańczowa kandyzowana; Skórka cytrynowa kandyzowana; Marcepan; Masa cukrowa
+G Ciasta i mieszanki do pieczenia = Ciasto francuskie; Ciasto na pizzę; Ciasto kruche; Ciasto drożdżowe; Ciasto filo; Ciasto na tarte flambée; Ciasto na rogaliki; Mieszanka do ciasta; Mieszanka do chleba; Mieszanka do naleśników
+K Przyprawy, olej i sosy
+G Sól i pieprz = Sól; Sól jodowana; Sól morska; Sól ziołowa; Pieprz czarny; Pieprz kolorowy; Pieprz biały; Pieprz ziarnisty
+G Przyprawy = Papryka słodka; Papryka ostra; Papryka wędzona; Curry; Kurkuma; Kumin rzymski; Kminek; Cynamon; Gałka muszkatołowa; Płatki chili; Pieprz cayenne; Czosnek granulowany; Cebula w proszku; Imbir mielony; Goździki; Liście laurowe; Jagody jałowca; Ziele angielskie; Anyż gwiazdkowaty; Laska wanilii; Kardamon; Garam masala
+G Zioła suszone i mieszanki = Oregano; Bazylia suszona; Tymianek suszony; Rozmaryn suszony; Majeranek; Pietruszka suszona; Szczypiorek suszony; Koperek suszony; Zioła prowansalskie; Zioła włoskie; Zioła do sałatek; Przyprawa do grilla; Przyprawa do gyrosa; Przyprawa do kurczaka; Przyprawa do frytek
+G Olej i tłuszcz = Oliwa z oliwek; Olej rzepakowy; Olej słonecznikowy; Olej kokosowy; Olej sezamowy; Olej lniany; Olej z orzechów włoskich; Olej do smażenia; Tłuszcz do frytownicy
+G Ocet i cytryna = Ocet balsamiczny; Krem balsamiczny; Ocet z białego wina; Ocet jabłkowy; Ocet ziołowy; Ocet spirytusowy; Sok z cytryny; Sok z limonki
+G Musztarda, ketchup i majonez = Ketchup; Ketchup curry; Majonez; Majonez sałatkowy; Musztarda średnio ostra; Musztarda ostra; Musztarda słodka; Musztarda Dijon; Remoulada; Chrzan w słoiku
+G Sosy i sosy do grilla = Sos do grilla; Sos BBQ; Sos czosnkowy; Sos koktajlowy; Sos sojowy; Sos Worcestershire; Tabasco; Sriracha; Sos słodkie chili; Sos teriyaki; Pesto genovese; Pesto czerwone; Dressing do sałatek; Przyprawa Maggi
+G Buliony i zagęstniki = Bulion warzywny; Bulion drobiowy; Bulion wołowy; Fond; Sos pieczeniowy; Sos jasny; Sos holenderski; Zagęstnik do sosów; Fixy (mieszanki przypraw); Mleczko kokosowe; Pasta curry
+K Mrożonki
+G Mrożone warzywa i zioła = Groszek mrożony; Szpinak mrożony; Szpinak ze śmietaną mrożony; Brokuły mrożone; Brukselka mrożona; Fasolka szparagowa mrożona; Mieszanka warzyw mrożona; Mieszanka warzyw cesarska mrożona; Włoszczyzna mrożona; Zioła mrożone; Cebula mrożona
+G Mrożone ziemniaki = Frytki; Krokiety ziemniaczane; Rösti; Łódeczki ziemniaczane; Ziemniaki opiekane mrożone; Placki ziemniaczane; Pierożki ziemniaczane
+G Mrożone ryby i mięso = Paluszki rybne; Filet rybny zapiekany; Filet z łososia mrożony; Krewetki mrożone; Ryba w panierce; Nuggetsy z kurczaka; Skrzydełka z kurczaka mrożone; Cordon bleu; Mięso mielone mrożone
+G Mrożone dania gotowe = Pizza; Pizza z pieca kamiennego; Zapiekanki z bagietki; Tarte flambée; Lasagne mrożona; Danie na patelnię mrożone; Sajgonki; Kotlety warzywne; Kotlety do burgerów mrożone; Kopytka na patelnię
+G Mrożone owoce i wypieki = Mieszanka owoców leśnych mrożona; Maliny mrożone; Truskawki mrożone; Mango mrożone; Bułki do odpiekania mrożone; Precle mrożone; Tort mrożony; Strudel jabłkowy mrożony; Ciasto mrożone
+G Lody = Lody waniliowe; Lody czekoladowe; Lody stracciatella; Lody na patyku; Lodowe pralinki; Sorbet; Tort lodowy; Kostki lodu
+K Śniadanie i smarowidła
+G Musli i płatki = Płatki owsiane błyskawiczne; Płatki owsiane górskie; Musli; Musli owocowe; Musli chrupiące; Musli czekoladowe; Granola; Płatki kukurydziane; Owsianka; Płatki śniadaniowe
+G Dżem i miód = Dżem; Dżem truskawkowy; Dżem morelowy; Dżem wiśniowy; Dżem malinowy; Marmolada pomarańczowa; Powidła śliwkowe; Miód; Miód leśny; Miód kremowany; Syrop buraczany; Syrop klonowy; Syrop z agawy
+G Kremy orzechowe i czekoladowe = Krem orzechowo-czekoladowy; Masło orzechowe; Masło orzechowe crunchy; Masło migdałowe; Masło z orzechów laskowych; Masło z nerkowców; Krem czekoladowy
+K Słodycze i przekąski
+G Czekolada = Czekolada mleczna; Czekolada gorzka; Czekolada biała; Czekolada orzechowa; Czekolada z całymi orzechami; Batoniki czekoladowe; Praliny; Cukierki czekoladowe
+G Ciastka i herbatniki = Ciastka; Herbatniki maślane; Ciastka czekoladowe; Ciastka przekładane; Wafle; Cantuccini; Spekulatius (korzenne ciasteczka); Pierniki; Pierniczki w czekoladzie (dominosteine); Sztolnia (strucla bożonarodzeniowa); Wafle ryżowe; Batony musli
+G Cukierki = Żelki misie; Kwaśne żelki; Lukrecja; Cukierki; Cukierki na kaszel; Guma do żucia; Pianki marshmallow; Pianki w czekoladzie
+G Chipsy i słone przekąski = Chipsy; Chipsy solone; Chipsy paprykowe; Chipsy kettle; Chipsy tortilla; Paluszki słone; Precelki; Chrupki orzechowe; Popcorn; Krakersy; Ciastka serowe
+K Kawa, herbata i kakao
+G Kawa = Kawa; Kawa ziarnista; Kawa mielona; Espresso; Espresso ziarniste; Saszetki do ekspresu (pady); Kapsułki do kawy; Kawa rozpuszczalna; Kawa bezkofeinowa; Cappuccino w proszku
+G Herbata = Herbata czarna; Herbata zielona; Herbata miętowa; Herbata rumiankowa; Herbata owocowa; Herbata ziołowa; Herbata z kopru włoskiego; Rooibos; Herbata imbirowa; Herbata z szałwii; Herbata na przeziębienie
+G Kakao = Kakao do picia; Kakao w proszku; Czekolada na gorąco
+K Napoje
+G Woda = Woda mineralna; Woda gazowana; Woda lekko gazowana; Woda niegazowana; Woda lecznicza
+G Soki = Sok pomarańczowy; Sok jabłkowy; Sok jabłkowy z wodą gazowaną; Sok multiwitamina; Sok winogronowy; Sok wiśniowy; Sok pomidorowy; Sok grejpfrutowy; Smoothie; Sok tłoczony
+G Lemoniady i napoje = Cola; Cola Zero; Oranżada; Lemoniada cytrynowa; Cola z oranżadą (spezi); Mrożona herbata brzoskwiniowa; Mrożona herbata cytrynowa; Napój energetyczny; Tonik; Ginger ale; Bitter lemon; Syrop
+G Piwo = Piwo; Pils; Piwo jasne pełne; Piwo pszeniczne; Piwo bezalkoholowe; Piwo pszeniczne bezalkoholowe; Radler; Export; Kölsch; Piwo słodowe
+G Wino i wino musujące = Wino czerwone; Wino białe; Wino różowe; Wino musujące; Prosecco; Szampan; Wino bezalkoholowe; Grzaniec; Wino do gotowania
+G Alkohole mocne = Wódka zbożowa (korn); Wódka; Rum; Gin; Whisky; Brandy; Likier; Ajerkoniak; Likier ziołowy; Aperol; Śliwowica (wódka owocowa)
+@hh
+K Sprzątanie
+G Środki czystości = Uniwersalny płyn do czyszczenia; Płyn do łazienki; Płyn do WC; Kostki do WC; Płyn do szyb; Płyn do kuchni; Odtłuszczacz; Odkamieniacz; Mleczko do czyszczenia; Płyn do podłóg; Środek do pielęgnacji drewna; Środek do piekarnika; Środek do udrażniania rur; Środek dezynfekujący; Środek do stali nierdzewnej
+G Akcesoria do sprzątania = Gąbki; Ściereczki do naczyń; Ściereczki z mikrofibry; Szmatki; Rękawice gumowe; Wkład do mopa; Druciak; Szczotka do naczyń; Szczotka do WC; Worki do odkurzacza
+K Zmywanie i kuchnia
+G Naczynia = Płyn do naczyń; Tabletki do zmywarki; Nabłyszczacz; Sól do zmywarki; Środek do czyszczenia zmywarki
+G Folie i woreczki = Ręczniki papierowe; Folia aluminiowa; Folia spożywcza; Papier do pieczenia; Woreczki do mrożenia; Woreczki na chleb; Papier śniadaniowy; Worki na śmieci małe; Worki na śmieci duże; Worki na bioodpady; Worki na plastik (żółte); Filtry do kawy
+G Stół i przyjęcia = Serwetki; Wykałaczki; Podpałka do grilla; Świece; Podgrzewacze (tealighty); Zapałki; Zapalniczka; Talerzyki papierowe; Kubki jednorazowe; Słomki
+K Pranie
+G Środki do prania = Środek do prania; Proszek uniwersalny; Środek do kolorów; Środek do delikatnych tkanin; Środek do wełny; Środek do czarnego; Kapsułki do prania; Płyn do płukania; Płyn higieniczny do płukania; Odplamiacz; Mydło galasowe; Chusteczki wyłapujące kolor; Środek do czyszczenia pralki
+G Akcesoria do prania = Klamerki; Woreczek do prania; Woda do żelazka; Chusteczki do suszarki
+K Papier i chusteczki
+G Papier = Papier toaletowy; Nawilżany papier toaletowy; Chusteczki higieniczne; Chusteczki w pudełku; Chusteczki kosmetyczne; Chusteczki nawilżane
+K Higiena osobista
+G Prysznic i kąpiel = Żel pod prysznic; Mydło; Mydło w płynie; Zapas mydła w płynie; Płyn do kąpieli; Peeling
+G Włosy = Szampon; Odżywka; Maska do włosów; Żel do włosów; Lakier do włosów; Wosk do włosów; Farba do włosów; Gumki do włosów
+G Skóra i kremy = Balsam do ciała; Krem do rąk; Krem do twarzy; Krem na noc; Krem do stóp; Krem z filtrem; Balsam po opalaniu; Pomadka ochronna; Wazelina
+G Dezodorant i golenie = Dezodorant; Dezodorant w kulce; Pianka do golenia; Żel do golenia; Żyletki; Maszynki jednorazowe; Płyn po goleniu; Perfumy
+G Kosmetyki i higiena kobieca = Waciki; Patyczki higieniczne; Chusteczki do demakijażu; Płyn do demakijażu; Pilnik do paznokci; Zmywacz do paznokci; Podpaski; Tampony; Wkładki higieniczne
+G Higiena jamy ustnej = Pasta do zębów; Szczoteczka do zębów; Końcówki do szczoteczki; Nić dentystyczna; Płyn do płukania ust; Szczoteczki międzyzębowe; Klej do protez; Środek do czyszczenia protez
+K Zdrowie
+G Apteczka domowa = Plastry; Plastry na pęcherze; Bandaże; Tabletki przeciwbólowe; Termometr; Spray do nosa; Tabletki na gardło; Maść na rany; Spray dezynfekujący; Plastry rozgrzewające; Okłady chłodzące; Środek na komary
+G Witaminy i suplementy = Witaminy w tabletkach; Witamina D; Magnez; Cynk; Tabletki musujące; Białko w proszku
+K Artykuły domowe
+G Technika i drobiazgi = Baterie AA; Baterie AAA; Baterie guzikowe; Bateria 9V; Żarówka LED; Żarówka; Przedłużacz; Kabel do ładowania; Taśma klejąca; Taśma pakowa; Klej błyskawiczny; Klej uniwersalny; Nożyczki; Długopis; Notes; Papier do pakowania prezentów
+G Ogród i grill = Węgiel drzewny; Brykiet do grilla; Ziemia do kwiatów; Nawóz; Kwiaty; Rośliny; Karma dla ptaków; Sól drogowa
+G Samochód = Płyn do spryskiwaczy; Płyn do chłodnic; Skrobaczka do szyb; Olej silnikowy
+K Dla zwierząt
+G Pies = Mokra karma dla psa; Sucha karma dla psa; Przysmaki dla psa; Kości do żucia; Woreczki na psie odchody
+G Kot = Mokra karma dla kota; Sucha karma dla kota; Przysmaki dla kota; Żwirek dla kota
+K Niemowlę i dziecko
+G Niemowlę = Pieluszki; Chusteczki nawilżane dla dzieci; Jedzenie dla niemowląt; Kaszka dla dzieci; Krem na odparzenia; Szampon dla dzieci
+@kl
+K Bielizna i skarpety
+G Bielizna = Majtki; Bokserki; Slipy; Biustonosz; Podkoszulek; Bielizna termoaktywna; Kalesony
+G Skarpety i rajstopy = Skarpetki; Stopki; Skarpety sportowe; Skarpety robocze; Skarpety wełniane; Podkolanówki; Rajstopy; Pończochy uciskowe
+K Góra
+G Koszulki i koszule = T-shirt; Koszulka z długim rękawem; Koszulka polo; Top; Koszula; Bluzka
+G Swetry i bluzy = Sweter; Kardigan; Bluza; Bluza z kapturem; Kurtka polarowa
+K Spodnie, spódnice i sukienki
+G Spodnie = Dżinsy; Chinosy; Spodnie materiałowe; Spodnie dresowe; Legginsy; Szorty; Bojówki
+G Spódnice i sukienki = Spódnica; Sukienka; Sukienka letnia
+K Kurtki i płaszcze
+G Kurtki = Kurtka; Kurtka przejściowa; Kurtka przeciwdeszczowa; Kurtka zimowa; Kurtka softshell; Kamizelka; Płaszcz; Garnitur; Marynarka
+K Sen, sport i kąpiel
+G Bielizna nocna = Piżama; Koszula nocna; Szlafrok
+G Sport i kąpiel = Koszulka sportowa; Spodenki sportowe; Dres; Kąpielówki; Kostium kąpielowy; Bikini
+K Odzież robocza
+G Praca = Spodnie robocze; Kurtka robocza; Koszulka robocza; Sweter roboczy; Nakolanniki; Rękawice robocze; Obuwie robocze; Obuwie ochronne; Kamizelka odblaskowa
+K Obuwie
+G Obuwie = Sportowe buty; Półbuty; Kozaki; Buty zimowe; Kapcie; Sandały; Klapki; Kalosze; Buty trekkingowe
+G Pielęgnacja obuwia = Sznurówki; Wkładki do butów; Pasta do butów; Spray impregnujący
+K Akcesoria
+G Akcesoria = Czapka; Czapka z daszkiem; Szalik; Rękawiczki; Pasek; Krawat; Okulary przeciwsłoneczne; Parasol; Torba; Portfel

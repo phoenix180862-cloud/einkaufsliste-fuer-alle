@@ -1,0 +1,185 @@
+# Einkaufsliste – Artikelkatalog DEUTSCH (Hauptfassung)
+# Aufbau:  @bereich   K Abteilung | Farbe   G Gruppe = Artikel; Artikel; …
+# Reihenfolge der Abteilungen = Weg durch einen typischen Supermarkt (so wird die Liste sortiert).
+# Die Artikel-ID entsteht aus dem deutschen Namen – vorhandene Namen möglichst nicht ändern (siehe LIESMICH.md).
+# Nach jeder Änderung:  python3 tools/katalog_bauen.py
+
+@lm    # Lebensmittel
+K Obst | #C8553D
+G Äpfel & Birnen = Äpfel; Äpfel rot; Äpfel grün; Äpfel säuerlich; Äpfel süß; Bio-Äpfel; Birnen; Nashi-Birnen; Quitten
+G Bananen = Bananen; Bio-Bananen; Babybananen; Kochbananen
+G Steinobst = Kirschen; Sauerkirschen; Pfirsiche; Plattpfirsiche; Nektarinen; Aprikosen; Pflaumen; Zwetschgen; Mirabellen; Reineclauden
+G Beeren & Trauben = Erdbeeren; Himbeeren; Heidelbeeren; Brombeeren; Johannisbeeren rot; Johannisbeeren schwarz; Stachelbeeren; Cranberries; Weintrauben hell; Weintrauben dunkel; Weintrauben kernlos
+G Zitrusfrüchte = Orangen; Saftorangen; Blutorangen; Mandarinen; Clementinen; Zitronen; Bio-Zitronen; Limetten; Grapefruit; Pomelo; Kumquats
+G Exotische Früchte = Mangos; Ananas; Kiwis; Gold-Kiwis; Avocados; Papaya; Maracuja; Granatapfel; Feigen; Kaki; Litschis; Drachenfrucht; Physalis; Kokosnuss; Sternfrucht; Guave; Datteln frisch
+G Melonen = Wassermelone; Honigmelone; Galiamelone; Cantaloupe-Melone; Netzmelone
+K Gemüse | #DD7A33
+G Kartoffeln & Knollen = Kartoffeln; Kartoffeln festkochend; Kartoffeln vorwiegend festkochend; Kartoffeln mehligkochend; Frühkartoffeln; Drillinge; Süßkartoffeln; Topinambur
+G Möhren & Wurzelgemüse = Möhren; Bundmöhren; Pastinaken; Petersilienwurzel; Knollensellerie; Rote Bete; Radieschen; Rettich; Schwarzwurzeln; Meerrettich frisch; Suppengrün
+G Zwiebeln & Lauch = Zwiebeln; Rote Zwiebeln; Gemüsezwiebeln; Schalotten; Frühlingszwiebeln; Lauch; Knoblauch
+G Tomaten = Tomaten; Rispentomaten; Cherrytomaten; Cocktailtomaten; Fleischtomaten; Romatomaten; Datteltomaten
+G Gurken, Paprika & Co. = Salatgurke; Minigurken; Schmorgurken; Paprika; Paprika rot; Paprika gelb; Paprika grün; Spitzpaprika; Zucchini; Aubergine; Chilischoten; Peperoni; Maiskolben
+G Kürbis = Hokkaido-Kürbis; Butternut-Kürbis; Muskatkürbis; Spaghettikürbis
+G Kohl = Weißkohl; Rotkohl; Spitzkohl; Wirsing; Blumenkohl; Brokkoli; Romanesco; Rosenkohl; Grünkohl; Chinakohl; Pak Choi; Kohlrabi
+G Blatt- & Stielgemüse = Blattspinat; Mangold; Staudensellerie; Fenchel; Spargel weiß; Spargel grün; Artischocken; Rhabarber
+G Bohnen & Erbsen frisch = Grüne Bohnen; Brechbohnen; Stangenbohnen; Zuckerschoten; Erbsen frisch; Dicke Bohnen; Edamame; Sojasprossen
+G Pilze = Champignons; Champignons braun; Kräuterseitlinge; Austernpilze; Pfifferlinge; Steinpilze; Shiitake; Pilzmischung
+K Salat & Kräuter | #5E9B4C
+G Salate = Kopfsalat; Eisbergsalat; Romanasalat; Feldsalat; Rucola; Lollo Rosso; Lollo Bianco; Eichblattsalat; Radicchio; Chicorée; Endiviensalat; Babyspinat; Salatmischung; Salat-Herzen; Kresse
+G Frische Kräuter = Petersilie glatt; Petersilie kraus; Schnittlauch; Dill; Basilikum; Koriander; Minze; Rosmarin; Thymian; Salbei; Oregano frisch; Estragon; Kerbel; Liebstöckel; Bärlauch; Zitronengras
+G Ingwer & Würzwurzeln = Ingwer; Kurkuma frisch; Galgant; Meerrettich
+K Nüsse, Kerne & Trockenobst | #A0784A
+G Ganze Nüsse = Walnüsse; Walnusskerne; Haselnüsse; Haselnusskerne; Mandeln; Cashewkerne; Erdnüsse; Erdnüsse geröstet & gesalzen; Erdnüsse in der Schale; Pistazien; Macadamianüsse; Paranüsse; Pekannüsse; Pinienkerne; Maronen
+G Nüsse zum Backen = Mandeln gemahlen; Mandeln gehobelt; Mandelstifte; Mandeln blanchiert; Haselnüsse gemahlen; Haselnüsse gehackt; Walnüsse gehackt; Kokosraspeln; Krokant
+G Nussmischungen = Studentenfutter; Nussmischung; Nüsse geröstet; Wasabi-Erdnüsse; Honig-Nüsse; Trail-Mix
+G Kerne & Samen = Sonnenblumenkerne; Kürbiskerne; Leinsamen; Leinsamen geschrotet; Chiasamen; Sesam; Sesam schwarz; Hanfsamen; Mohn; Flohsamenschalen; Salatkerne-Mix
+G Trockenobst = Rosinen; Sultaninen; Datteln getrocknet; Feigen getrocknet; Aprikosen getrocknet; Pflaumen getrocknet; Cranberries getrocknet; Mango getrocknet; Bananenchips; Apfelringe getrocknet; Gojibeeren; Trockenobst-Mischung
+K Brot & Backwaren | #C2954A
+G Brot = Brot; Mischbrot; Roggenbrot; Vollkornbrot; Dinkelbrot; Mehrkornbrot; Bauernbrot; Weißbrot; Baguette; Ciabatta; Fladenbrot; Pumpernickel; Knäckebrot
+G Toast & Wraps = Toastbrot; Vollkorntoast; Buttertoast; Sandwichtoast; Wraps; Tortillas; Pita-Brot; Naan-Brot
+G Brötchen & Brezeln = Brötchen; Vollkornbrötchen; Körnerbrötchen; Laugenbrötchen; Brezeln; Aufbackbrötchen; Aufback-Baguette; Burger-Brötchen; Hot-Dog-Brötchen; Croissants
+G Süßes Gebäck = Hefezopf; Rosinenbrötchen; Milchbrötchen; Kuchen; Muffins; Donuts; Berliner; Zwieback; Löffelbiskuits; Tortenboden; Waffeln frisch
+K Milch, Butter & Eier | #6E9FC4
+G Milch = Vollmilch; Fettarme Milch; H-Milch; Frischmilch; Laktosefreie Milch; Buttermilch; Kefir; Ayran
+G Pflanzendrinks = Haferdrink; Mandeldrink; Sojadrink; Reisdrink; Kokosdrink; Barista-Haferdrink
+G Joghurt = Joghurt natur; Griechischer Joghurt; Fruchtjoghurt; Vanillejoghurt; Trinkjoghurt; Skyr; Sojajoghurt
+G Quark & Desserts = Magerquark; Speisequark; Kräuterquark; Pudding; Schokopudding; Milchreis fertig; Grießpudding; Mousse au Chocolat; Tiramisu
+G Butter & Margarine = Butter; Süßrahmbutter; Gesalzene Butter; Kräuterbutter; Streichfett; Margarine; Butterschmalz
+G Sahne & Co. = Schlagsahne; Kochsahne; Saure Sahne; Schmand; Crème fraîche; Mascarpone; Sprühsahne; Kaffeesahne; Kondensmilch
+G Eier = Eier; Eier Größe M; Eier Größe L; Bio-Eier; Freilandeier; Wachteleier; Gekochte Eier
+K Käse | #D9AE35
+G Scheibenkäse = Gouda; Gouda jung; Gouda mittelalt; Gouda alt; Butterkäse; Edamer; Emmentaler; Leerdammer; Tilsiter; Bergkäse; Maasdamer; Käseaufschnitt
+G Weichkäse = Camembert; Brie; Feta; Hirtenkäse; Mozzarella; Büffelmozzarella; Burrata; Ziegenkäse; Romadur; Harzer Käse
+G Hartkäse & Reibekäse = Parmesan; Grana Padano; Pecorino; Reibekäse; Gratinkäse; Pizzakäse; Hartkäse am Stück
+G Frischkäse & Grillkäse = Frischkäse; Frischkäse Kräuter; Hüttenkäse; Ricotta; Schmelzkäse; Halloumi; Grillkäse; Ofenkäse
+K Fleisch & Geflügel | #B23A48
+G Hackfleisch = Hackfleisch gemischt; Rinderhackfleisch; Schweinehackfleisch; Mett; Lammhack; Putenhack
+G Rind = Rindersteak; Rumpsteak; Entrecôte; Rinderfilet; Rinderbraten; Rinderrouladen; Rindergulasch; Suppenfleisch; Tafelspitz; Beinscheibe
+G Schwein = Schnitzel; Schweinekotelett; Schweinenacken; Nackensteaks; Schweinefilet; Schweinebraten; Schweinegulasch; Schweinegeschnetzeltes; Spareribs; Bauchfleisch; Kasseler; Eisbein
+G Geflügel = Hähnchenbrustfilet; Hähnchenschenkel; Hähnchenflügel; Ganzes Hähnchen; Hähnchengeschnetzeltes; Putenbrust; Putenschnitzel; Putengeschnetzeltes; Entenbrust; Ganze Ente; Gans
+G Lamm & Wild = Lammkeule; Lammkoteletts; Lammrücken; Rehrücken; Rehgulasch; Hirschgulasch; Wildschweinbraten; Kaninchen
+G Grillgut & Würstchen = Bratwurst; Grillwurst; Rostbratwürstchen; Krakauer; Wiener Würstchen; Frankfurter Würstchen; Bockwurst; Weißwurst; Leberkäse; Grillfackeln; Marinierte Steaks; Cevapcici; Schaschlik-Spieße; Gyros
+K Wurst & Aufschnitt | #C2676B
+G Schinken = Kochschinken; Schwarzwälder Schinken; Lachsschinken; Serrano-Schinken; Parmaschinken; Nussschinken
+G Aufschnitt = Salami; Mortadella; Fleischwurst; Lyoner; Gelbwurst; Bierschinken; Jagdwurst; Putenbrust-Aufschnitt; Hähnchenbrust-Aufschnitt; Corned Beef; Sülze; Aufschnitt-Mix
+G Streichwurst = Leberwurst; Teewurst; Zwiebelmettwurst; Blutwurst; Leberpastete; Grobe Leberwurst
+G Speck & Snackwurst = Speckwürfel; Bacon; Frühstücksspeck; Mettwurst; Cabanossi; Landjäger; Chorizo; Minisalami
+K Fisch & Meeresfrüchte | #3C7DA6
+G Frischer Fisch = Lachsfilet; Forelle; Kabeljau; Seelachs; Dorade; Wolfsbarsch; Zander; Thunfischsteak; Scholle; Rotbarsch
+G Geräuchert & Mariniert = Räucherlachs; Graved Lachs; Räucherforelle; Makrele geräuchert; Matjes; Bismarckhering; Rollmops; Heringssalat; Brathering; Sahnehering
+G Meeresfrüchte = Garnelen; Shrimps; Nordseekrabben; Miesmuscheln; Tintenfischringe; Calamari; Surimi
+G Fisch in Dosen = Thunfisch in Dose; Thunfisch in Öl; Sardinen; Makrele in Tomatensauce; Hering in Tomatensauce; Sardellen
+K Vegetarisch & Feinkost | #6E9E5A
+G Fleischersatz = Tofu; Räuchertofu; Seidentofu; Tempeh; Veggie-Burger; Veggie-Hack; Veggie-Würstchen; Veggie-Aufschnitt; Veggie-Schnitzel; Falafel
+G Feinkost-Salate = Kartoffelsalat; Nudelsalat; Krautsalat; Fleischsalat; Eiersalat; Thunfischsalat; Geflügelsalat; Waldorfsalat
+G Dips & Aufstriche = Hummus; Tzatziki; Guacamole; Aioli; Salsa-Dip; Kräuterdip; Paprikaaufstrich; Brotaufstrich vegan
+G Frische Teigwaren = Tortellini frisch; Ravioli frisch; Gnocchi; Maultaschen; Spätzle frisch; Schupfnudeln; Frische Pasta
+K Nudeln, Reis & Hülsenfrüchte | #CF9F48
+G Nudeln = Spaghetti; Spaghettini; Penne; Fusilli; Farfalle; Rigatoni; Tagliatelle; Bandnudeln; Makkaroni; Lasagneplatten; Cannelloni; Eiernudeln; Vollkornnudeln; Suppennudeln; Hörnchennudeln; Spätzle getrocknet
+G Asia-Nudeln = Mie-Nudeln; Glasnudeln; Reisnudeln; Udon-Nudeln; Instant-Nudeln
+G Reis = Reis; Langkornreis; Basmatireis; Jasminreis; Risottoreis; Milchreis; Naturreis; Wildreis; Sushireis; Kochbeutelreis
+G Getreide & Beilagen = Couscous; Bulgur; Quinoa; Hirse; Polenta; Grieß; Kartoffelpüree-Pulver; Kartoffelknödel; Semmelknödel; Kloßteig; Paniermehl
+G Hülsenfrüchte getrocknet = Linsen rot; Linsen braun; Tellerlinsen; Belugalinsen; Kichererbsen getrocknet; Weiße Bohnen getrocknet; Erbsen geschält; Bohnenmischung
+K Konserven & Gläser | #8C6D5A
+G Tomaten = Passierte Tomaten; Gehackte Tomaten; Geschälte Tomaten; Tomatenmark; Pizzatomaten; Getrocknete Tomaten
+G Gemüse in Dose & Glas = Mais; Kidneybohnen; Weiße Bohnen Dose; Kichererbsen Dose; Linsen Dose; Erbsen & Möhren; Grüne Bohnen Glas; Champignons Dose; Rote Bete Glas; Sauerkraut; Rotkohl Glas; Spargel Glas
+G Saures & Antipasti = Gewürzgurken; Cornichons; Silberzwiebeln; Mixed Pickles; Oliven grün; Oliven schwarz; Kapern; Jalapeños; Peperoni eingelegt; Antipasti; Artischockenherzen
+G Obst in Dose & Glas = Apfelmus; Pfirsiche Dose; Ananas Dose; Mandarinen Dose; Kirschen Glas; Birnen Dose; Fruchtcocktail; Preiselbeeren
+G Suppen & Fertiggerichte = Dosensuppe; Eintopf; Gulaschsuppe; Erbsensuppe; Linsensuppe; Ravioli Dose; Chili con Carne Dose; Tütensuppe; Fertiggericht; Kartoffelsuppe
+K Backen | #C487A3
+G Mehl & Stärke = Mehl; Weizenmehl Type 405; Weizenmehl Type 550; Dinkelmehl; Vollkornmehl; Roggenmehl; Speisestärke; Pizzamehl
+G Zucker & Süßungsmittel = Zucker; Puderzucker; Brauner Zucker; Rohrzucker; Gelierzucker; Vanillezucker; Hagelzucker; Süßstoff; Xylit
+G Backzutaten = Backpulver; Trockenhefe; Frische Hefe; Natron; Gelatine; Agar-Agar; Backkakao; Kuvertüre; Schokotropfen; Schokostreusel; Zuckerstreusel; Tortenguss; Puddingpulver; Sahnesteif; Backaromen; Zitronenschale gerieben; Orangeat; Zitronat; Marzipan; Fondant
+G Teige & Backmischungen = Blätterteig; Pizzateig; Mürbeteig; Hefeteig; Strudelteig; Flammkuchenteig; Croissant-Teig; Kuchen-Backmischung; Brot-Backmischung; Pfannkuchen-Mix
+K Gewürze, Öl & Saucen | #97784C
+G Salz & Pfeffer = Salz; Jodsalz; Meersalz; Kräutersalz; Pfeffer schwarz; Pfeffer bunt; Pfeffer weiß; Pfefferkörner
+G Gewürze = Paprika edelsüß; Paprika rosenscharf; Paprika geräuchert; Curry; Kurkuma; Kreuzkümmel; Kümmel; Zimt; Muskatnuss; Chiliflocken; Cayennepfeffer; Knoblauchpulver; Zwiebelpulver; Ingwer gemahlen; Nelken; Lorbeerblätter; Wacholderbeeren; Piment; Sternanis; Vanilleschote; Kardamom; Garam Masala
+G Getrocknete Kräuter & Mischungen = Oregano; Basilikum getrocknet; Thymian getrocknet; Rosmarin getrocknet; Majoran; Petersilie getrocknet; Schnittlauch getrocknet; Dill getrocknet; Kräuter der Provence; Italienische Kräuter; Salatkräuter; Grillgewürz; Gyros-Gewürz; Hähnchengewürz; Pommes-Salz
+G Öl & Fett = Olivenöl; Rapsöl; Sonnenblumenöl; Kokosöl; Sesamöl; Leinöl; Walnussöl; Bratöl; Frittierfett
+G Essig & Zitrone = Balsamico; Balsamico-Creme; Weißweinessig; Apfelessig; Kräuteressig; Branntweinessig; Zitronensaft; Limettensaft
+G Senf, Ketchup & Mayo = Ketchup; Curryketchup; Mayonnaise; Salatmayonnaise; Senf mittelscharf; Senf scharf; Senf süß; Dijon-Senf; Remoulade; Meerrettich Glas
+G Würz- & Grillsaucen = Grillsauce; BBQ-Sauce; Knoblauchsauce; Cocktailsauce; Sojasauce; Worcestershiresauce; Tabasco; Sriracha; Sweet-Chili-Sauce; Teriyaki-Sauce; Pesto Genovese; Pesto Rosso; Salatdressing; Maggi-Würze
+G Brühe & Saucenbinder = Gemüsebrühe; Hühnerbrühe; Rinderbrühe; Fond; Bratensauce; Helle Sauce; Sauce Hollandaise; Saucenbinder; Fix-Produkte; Kokosmilch; Currypaste
+K Tiefkühl | #5FAFD6
+G TK-Gemüse & Kräuter = Erbsen TK; Blattspinat TK; Rahmspinat TK; Brokkoli TK; Rosenkohl TK; Grüne Bohnen TK; Gemüsemischung TK; Kaisergemüse TK; Suppengemüse TK; Kräuter TK; Zwiebeln TK
+G TK-Kartoffeln = Pommes frites; Kroketten; Rösti; Kartoffelecken; Bratkartoffeln TK; Reibekuchen; Kartoffeltaschen
+G TK-Fisch & Fleisch = Fischstäbchen; Schlemmerfilet; Lachsfilet TK; Garnelen TK; Backfisch; Hähnchen-Nuggets; Chicken Wings TK; Cordon bleu; Hackfleisch TK
+G TK-Fertiggerichte = Pizza; Steinofenpizza; Baguette-Pizza; Flammkuchen; Lasagne TK; Pfannengericht TK; Frühlingsrollen; Gemüsebratlinge; Burger-Patties TK; Schupfnudel-Pfanne
+G TK-Obst & Backwaren = Beerenmischung TK; Himbeeren TK; Erdbeeren TK; Mango TK; Aufback-Brötchen TK; Brezeln TK; Torte TK; Apfelstrudel TK; Kuchen TK
+G Eis = Eis Vanille; Eis Schokolade; Eis Stracciatella; Eis am Stiel; Eiskonfekt; Sorbet; Eistorte; Eiswürfel
+K Frühstück & Aufstriche | #D39F55
+G Müsli & Flocken = Haferflocken zart; Haferflocken kernig; Müsli; Früchtemüsli; Knuspermüsli; Schokomüsli; Granola; Cornflakes; Porridge; Cerealien
+G Marmelade & Honig = Marmelade; Erdbeermarmelade; Aprikosenkonfitüre; Kirschkonfitüre; Himbeermarmelade; Orangenmarmelade; Pflaumenmus; Honig; Waldhonig; Cremiger Honig; Rübenkraut; Ahornsirup; Agavendicksaft
+G Nuss- & Schokoaufstriche = Nuss-Nougat-Creme; Erdnussbutter; Erdnussbutter crunchy; Mandelmus; Haselnussmus; Cashewmus; Schokocreme
+K Süßes & Knabbereien | #8E5B9E
+G Schokolade = Vollmilchschokolade; Zartbitterschokolade; Weiße Schokolade; Nussschokolade; Ganze-Nuss-Schokolade; Schokoriegel; Pralinen; Schokobons
+G Kekse & Gebäck = Kekse; Butterkekse; Schokokekse; Doppelkekse; Waffeln; Cantuccini; Spekulatius; Lebkuchen; Dominosteine; Stollen; Reiswaffeln; Müsliriegel
+G Süßwaren = Gummibärchen; Fruchtgummi sauer; Lakritz; Bonbons; Hustenbonbons; Kaugummi; Marshmallows; Schaumküsse
+G Chips & Salziges = Chips; Chips gesalzen; Chips Paprika; Kesselchips; Tortilla-Chips; Salzstangen; Salzbrezeln; Erdnussflips; Popcorn; Cracker; Käsegebäck
+K Kaffee, Tee & Kakao | #6F4E37
+G Kaffee = Kaffee; Kaffeebohnen; Kaffee gemahlen; Espresso; Espressobohnen; Kaffeepads; Kaffeekapseln; Instantkaffee; Entkoffeinierter Kaffee; Cappuccino-Pulver
+G Tee = Schwarztee; Grüner Tee; Pfefferminztee; Kamillentee; Früchtetee; Kräutertee; Fencheltee; Rooibostee; Ingwertee; Salbeitee; Erkältungstee
+G Kakao = Trinkkakao; Kakaopulver; Trinkschokolade
+K Getränke | #2F8F9D
+G Wasser = Mineralwasser; Mineralwasser classic; Mineralwasser medium; Stilles Wasser; Heilwasser
+G Säfte = Orangensaft; Apfelsaft; Apfelschorle; Multivitaminsaft; Traubensaft; Kirschsaft; Tomatensaft; Grapefruitsaft; Smoothie; Direktsaft
+G Limonade & Softdrinks = Cola; Cola Zero; Orangenlimonade; Zitronenlimonade; Spezi; Eistee Pfirsich; Eistee Zitrone; Energydrink; Tonic Water; Ginger Ale; Bitter Lemon; Sirup
+G Bier = Bier; Pils; Helles; Weizenbier; Alkoholfreies Bier; Alkoholfreies Weizen; Radler; Export; Kölsch; Malzbier
+G Wein & Sekt = Rotwein; Weißwein; Roséwein; Sekt; Prosecco; Champagner; Alkoholfreier Wein; Glühwein; Kochwein
+G Spirituosen = Korn; Wodka; Rum; Gin; Whisky; Weinbrand; Likör; Eierlikör; Kräuterlikör; Aperol; Obstler
+
+@hh    # Haushalt
+K Putzen & Reinigen | #3F8FBF
+G Reiniger = Allzweckreiniger; Badreiniger; WC-Reiniger; WC-Steine; Glasreiniger; Küchenreiniger; Fettlöser; Entkalker; Scheuermilch; Bodenreiniger; Holzpflege; Backofenreiniger; Abflussreiniger; Desinfektionsmittel; Edelstahlpflege
+G Putzhelfer = Schwämme; Spültücher; Mikrofasertücher; Putzlappen; Gummihandschuhe; Wischmopp-Bezug; Stahlwolle; Spülbürste; Klobürste; Staubsaugerbeutel
+K Spülen & Küche | #4FA3A5
+G Geschirr = Spülmittel; Spülmaschinentabs; Klarspüler; Spülmaschinensalz; Maschinenreiniger
+G Folien & Beutel = Küchenrolle; Alufolie; Frischhaltefolie; Backpapier; Gefrierbeutel; Brotbeutel; Butterbrotpapier; Müllbeutel klein; Müllbeutel groß; Biomüllbeutel; Gelbe Säcke; Kaffeefilter
+G Tisch & Feier = Servietten; Zahnstocher; Grillanzünder; Kerzen; Teelichter; Streichhölzer; Feuerzeug; Pappteller; Einwegbecher; Strohhalme
+K Wäsche | #7C8FD0
+G Waschmittel = Waschmittel; Vollwaschmittel; Colorwaschmittel; Feinwaschmittel; Wollwaschmittel; Schwarzwaschmittel; Waschmittel-Pods; Weichspüler; Hygienespüler; Fleckentferner; Gallseife; Farbfangtücher; Waschmaschinenreiniger
+G Wäschezubehör = Wäscheklammern; Wäschenetz; Bügelwasser; Trocknertücher
+K Papier & Taschentücher | #A39E94
+G Papier = Toilettenpapier; Feuchtes Toilettenpapier; Taschentücher; Taschentücher-Box; Kosmetiktücher; Feuchttücher
+K Körperpflege | #C27A9D
+G Duschen & Baden = Duschgel; Seife; Flüssigseife; Seifen-Nachfüllpack; Badezusatz; Peeling
+G Haare = Shampoo; Spülung; Haarkur; Haargel; Haarspray; Haarwachs; Haarfarbe; Haargummis
+G Haut & Creme = Bodylotion; Handcreme; Gesichtscreme; Nachtcreme; Fußcreme; Sonnencreme; After-Sun; Lippenpflege; Vaseline
+G Deo & Rasur = Deo; Deoroller; Rasierschaum; Rasiergel; Rasierklingen; Einwegrasierer; Aftershave; Parfum
+G Kosmetik & Damenhygiene = Wattepads; Wattestäbchen; Abschminktücher; Make-up-Entferner; Nagelfeile; Nagellackentferner; Binden; Tampons; Slipeinlagen
+G Zahnpflege = Zahnpasta; Zahnbürste; Aufsteckbürsten; Zahnseide; Mundspülung; Interdentalbürsten; Haftcreme; Gebissreiniger
+K Gesundheit | #4E9E6E
+G Hausapotheke = Pflaster; Blasenpflaster; Mullbinden; Schmerztabletten; Fieberthermometer; Nasenspray; Halstabletten; Wundsalbe; Desinfektionsspray; Wärmepflaster; Kühlpads; Mückenschutz
+G Vitamine & Ergänzung = Vitamintabletten; Vitamin D; Magnesium; Zink; Brausetabletten; Eiweißpulver
+K Haushaltswaren | #7A7F87
+G Technik & Kleinkram = Batterien AA; Batterien AAA; Knopfzellen; 9V-Batterie; LED-Lampe; Glühbirne; Verlängerungskabel; Ladekabel; Klebeband; Paketband; Sekundenkleber; Alleskleber; Schere; Kugelschreiber; Notizblock; Geschenkpapier
+G Garten & Grill = Grillkohle; Grillbriketts; Blumenerde; Dünger; Blumen; Pflanzen; Vogelfutter; Streusalz
+G Auto = Scheibenwischwasser; Frostschutz; Eiskratzer; Motoröl
+K Tierbedarf | #A67C52
+G Hund = Hundefutter nass; Hundefutter trocken; Hundeleckerlis; Kauknochen; Kotbeutel
+G Katze = Katzenfutter nass; Katzenfutter trocken; Katzenleckerlis; Katzenstreu
+K Baby & Kind | #DE94AB
+G Baby = Windeln; Feuchttücher Baby; Babynahrung; Babybrei; Wundschutzcreme; Babyshampoo
+
+@kl    # Kleidung
+K Unterwäsche & Socken | #5A6B8C
+G Unterwäsche = Unterhosen; Boxershorts; Slips; BH; Unterhemd; Thermounterwäsche; Lange Unterhose
+G Socken & Strümpfe = Socken; Sneakersocken; Sportsocken; Arbeitssocken; Wollsocken; Kniestrümpfe; Strumpfhose; Kompressionsstrümpfe
+K Oberteile | #3E7CB1
+G Shirts & Hemden = T-Shirt; Langarmshirt; Poloshirt; Top; Hemd; Bluse
+G Pullover & Jacken = Pullover; Strickjacke; Sweatshirt; Hoodie; Fleecejacke
+K Hosen, Röcke & Kleider | #4F6D7A
+G Hosen = Jeans; Chino; Stoffhose; Jogginghose; Leggings; Shorts; Cargohose
+G Röcke & Kleider = Rock; Kleid; Sommerkleid
+K Jacken & Mäntel | #6B5B4E
+G Jacken = Jacke; Übergangsjacke; Regenjacke; Winterjacke; Softshelljacke; Weste; Mantel; Anzug; Sakko
+K Schlafen, Sport & Baden | #3F9AA8
+G Nachtwäsche = Schlafanzug; Nachthemd; Bademantel
+G Sport & Baden = Sportshirt; Sporthose; Trainingsanzug; Badehose; Badeanzug; Bikini
+K Arbeitskleidung | #E07A2E
+G Arbeit = Arbeitshose; Arbeitsjacke; Arbeits-T-Shirt; Arbeitspullover; Knieschoner; Arbeitshandschuhe; Arbeitsschuhe; Sicherheitsschuhe; Warnweste
+K Schuhe | #7A5C45
+G Schuhe = Turnschuhe; Halbschuhe; Stiefel; Winterstiefel; Hausschuhe; Sandalen; Badelatschen; Gummistiefel; Wanderschuhe
+G Schuhzubehör = Schnürsenkel; Einlegesohlen; Schuhcreme; Imprägnierspray
+K Accessoires | #8E6FA8
+G Accessoires = Mütze; Cap; Schal; Handschuhe; Gürtel; Krawatte; Sonnenbrille; Regenschirm; Tasche; Geldbörse

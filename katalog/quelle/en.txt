@@ -1,0 +1,178 @@
+# en – Reihenfolge exakt wie de.txt (Zeile für Zeile)
+@lm
+K Fruit
+G Apples & pears = Apples; Red apples; Green apples; Sour apples; Sweet apples; Organic apples; Pears; Nashi pears; Quinces
+G Bananas = Bananas; Organic bananas; Baby bananas; Plantains
+G Stone fruit = Cherries; Sour cherries; Peaches; Flat peaches; Nectarines; Apricots; Plums; Damsons; Mirabelle plums; Greengages
+G Berries & grapes = Strawberries; Raspberries; Blueberries; Blackberries; Redcurrants; Blackcurrants; Gooseberries; Cranberries; Green grapes; Red grapes; Seedless grapes
+G Citrus fruit = Oranges; Juicing oranges; Blood oranges; Mandarins; Clementines; Lemons; Organic lemons; Limes; Grapefruit; Pomelo; Kumquats
+G Exotic fruit = Mangoes; Pineapple; Kiwis; Gold kiwis; Avocados; Papaya; Passion fruit; Pomegranate; Figs; Persimmon; Lychees; Dragon fruit; Physalis; Coconut; Star fruit; Guava; Fresh dates
+G Melons = Watermelon; Honeydew melon; Galia melon; Cantaloupe melon; Rock melon
+K Vegetables
+G Potatoes & tubers = Potatoes; Waxy potatoes; Salad potatoes; Floury potatoes; New potatoes; Baby potatoes; Sweet potatoes; Jerusalem artichokes
+G Carrots & root vegetables = Carrots; Bunched carrots; Parsnips; Parsley root; Celeriac; Beetroot; Radishes; White radish; Salsify; Fresh horseradish; Soup vegetables bundle
+G Onions & leeks = Onions; Red onions; Spanish onions; Shallots; Spring onions; Leeks; Garlic
+G Tomatoes = Tomatoes; Vine tomatoes; Cherry tomatoes; Cocktail tomatoes; Beef tomatoes; Plum tomatoes; Baby plum tomatoes
+G Cucumbers & peppers = Cucumber; Mini cucumbers; Stewing cucumbers; Peppers; Red peppers; Yellow peppers; Green peppers; Pointed peppers; Courgettes; Aubergine; Chillies; Pepperoncini; Corn on the cob
+G Squash = Hokkaido squash; Butternut squash; Musk pumpkin; Spaghetti squash
+G Cabbage = White cabbage; Red cabbage; Pointed cabbage; Savoy cabbage; Cauliflower; Broccoli; Romanesco; Brussels sprouts; Kale; Chinese leaf; Pak choi; Kohlrabi
+G Leaf & stalk vegetables = Spinach; Swiss chard; Celery; Fennel; White asparagus; Green asparagus; Artichokes; Rhubarb
+G Fresh beans & peas = Green beans; Snap beans; Runner beans; Mangetout; Fresh peas; Broad beans; Edamame; Bean sprouts
+G Mushrooms = Button mushrooms; Chestnut mushrooms; King oyster mushrooms; Oyster mushrooms; Chanterelles; Porcini; Shiitake; Mixed mushrooms
+K Salad & herbs
+G Salad = Butterhead lettuce; Iceberg lettuce; Romaine lettuce; Lamb's lettuce; Rocket; Lollo rosso; Lollo bianco; Oak leaf lettuce; Radicchio; Chicory; Endive; Baby spinach; Mixed salad leaves; Little gem hearts; Cress
+G Fresh herbs = Flat-leaf parsley; Curly parsley; Chives; Dill; Basil; Coriander; Mint; Rosemary; Thyme; Sage; Fresh oregano; Tarragon; Chervil; Lovage; Wild garlic; Lemongrass
+G Ginger & spice roots = Ginger; Fresh turmeric; Galangal; Horseradish
+K Nuts, seeds & dried fruit
+G Whole nuts = Walnuts; Shelled walnuts; Hazelnuts; Shelled hazelnuts; Almonds; Cashews; Peanuts; Roasted salted peanuts; Peanuts in shells; Pistachios; Macadamia nuts; Brazil nuts; Pecans; Pine nuts; Chestnuts
+G Nuts for baking = Ground almonds; Flaked almonds; Slivered almonds; Blanched almonds; Ground hazelnuts; Chopped hazelnuts; Chopped walnuts; Desiccated coconut; Nut brittle
+G Nut mixes = Fruit & nut mix; Mixed nuts; Roasted nuts; Wasabi peanuts; Honey roasted nuts; Trail mix
+G Seeds = Sunflower seeds; Pumpkin seeds; Linseed; Ground linseed; Chia seeds; Sesame seeds; Black sesame seeds; Hemp seeds; Poppy seeds; Psyllium husks; Salad seed mix
+G Dried fruit = Raisins; Sultanas; Dried dates; Dried figs; Dried apricots; Prunes; Dried cranberries; Dried mango; Banana chips; Dried apple rings; Goji berries; Mixed dried fruit
+K Bread & bakery
+G Bread = Bread; Mixed grain bread; Rye bread; Wholemeal bread; Spelt bread; Multigrain bread; Farmhouse loaf; White bread; Baguette; Ciabatta; Flatbread; Pumpernickel; Crispbread
+G Toast & wraps = Sliced white bread; Wholemeal sliced bread; Butter toast bread; Sandwich bread; Wraps; Tortillas; Pitta bread; Naan bread
+G Rolls & pretzels = Bread rolls; Wholemeal rolls; Seeded rolls; Pretzel rolls; Pretzels; Part-baked rolls; Part-baked baguette; Burger buns; Hot dog buns; Croissants
+G Sweet bakery = Plaited sweet bread; Raisin buns; Milk rolls; Cake; Muffins; Doughnuts; Jam doughnuts; Rusks; Sponge fingers; Flan case; Fresh waffles
+K Milk, butter & eggs
+G Milk = Whole milk; Semi-skimmed milk; Long-life milk; Fresh milk; Lactose-free milk; Buttermilk; Kefir; Ayran
+G Plant-based drinks = Oat drink; Almond drink; Soya drink; Rice drink; Coconut drink; Barista oat drink
+G Yoghurt = Natural yoghurt; Greek yoghurt; Fruit yoghurt; Vanilla yoghurt; Drinking yoghurt; Skyr; Soya yoghurt
+G Quark & desserts = Low-fat quark; Quark; Herb quark; Pudding; Chocolate pudding; Ready-made rice pudding; Semolina pudding; Chocolate mousse; Tiramisu
+G Butter & margarine = Butter; Sweet cream butter; Salted butter; Herb butter; Spreadable butter; Margarine; Clarified butter
+G Cream = Whipping cream; Cooking cream; Soured cream; Smetana; Crème fraîche; Mascarpone; Aerosol cream; Coffee creamer; Condensed milk
+G Eggs = Eggs; Medium eggs; Large eggs; Organic eggs; Free-range eggs; Quail eggs; Boiled eggs
+K Cheese
+G Sliced cheese = Gouda; Young Gouda; Medium Gouda; Mature Gouda; Butterkäse; Edam; Emmental; Leerdammer; Tilsit; Mountain cheese; Maasdam; Sliced cheese selection
+G Soft cheese = Camembert; Brie; Feta; White brine cheese; Mozzarella; Buffalo mozzarella; Burrata; Goat's cheese; Romadur; Harz cheese
+G Hard & grated cheese = Parmesan; Grana Padano; Pecorino; Grated cheese; Gratin cheese; Pizza cheese; Block of hard cheese
+G Cream cheese & grilling cheese = Cream cheese; Herb cream cheese; Cottage cheese; Ricotta; Processed cheese; Halloumi; Grilling cheese; Baking cheese
+K Meat & poultry
+G Mince = Mixed mince; Beef mince; Pork mince; Seasoned raw pork mince; Lamb mince; Turkey mince
+G Beef = Beef steak; Rump steak; Entrecôte; Beef fillet; Roasting beef; Beef olives; Beef goulash; Stewing beef; Boiled beef rump; Beef shin
+G Pork = Escalope; Pork chops; Pork neck; Neck steaks; Pork fillet; Roast pork; Pork goulash; Pork strips; Spare ribs; Pork belly; Smoked pork loin; Pork knuckle
+G Poultry = Chicken breast fillets; Chicken thighs; Chicken wings; Whole chicken; Chicken strips; Turkey breast; Turkey escalopes; Turkey strips; Duck breast; Whole duck; Goose
+G Lamb & game = Leg of lamb; Lamb chops; Rack of lamb; Saddle of venison; Venison goulash; Deer goulash; Roast wild boar; Rabbit
+G BBQ & sausages = Bratwurst; Grilling sausages; Thin bratwurst; Krakauer sausage; Wiener sausages; Frankfurters; Bockwurst; Weisswurst; Leberkäse; Pork belly skewers; Marinated steaks; Ćevapčići; Shashlik skewers; Gyros
+K Cold cuts & sausage
+G Ham = Cooked ham; Black Forest ham; Cured pork loin; Serrano ham; Parma ham; Smoked ham
+G Cold cuts = Salami; Mortadella; Fleischwurst; Lyoner; Gelbwurst; Bierschinken; Jagdwurst; Sliced turkey breast; Sliced chicken breast; Corned beef; Brawn; Cold cuts selection
+G Spreadable sausage = Liver sausage; Teewurst; Onion Mettwurst; Black pudding; Liver pâté; Coarse liver sausage
+G Bacon & snack sausage = Diced bacon; Bacon; Breakfast bacon; Mettwurst; Cabanossi; Landjäger; Chorizo; Mini salami
+K Fish & seafood
+G Fresh fish = Salmon fillet; Trout; Cod; Coley; Sea bream; Sea bass; Pike-perch; Tuna steak; Plaice; Redfish
+G Smoked & marinated = Smoked salmon; Gravlax; Smoked trout; Smoked mackerel; Matjes herring; Bismarck herring; Rollmops; Herring salad; Fried herring; Herring in cream sauce
+G Seafood = Prawns; Shrimps; North Sea shrimps; Mussels; Squid rings; Calamari; Surimi
+G Tinned fish = Tinned tuna; Tuna in oil; Sardines; Mackerel in tomato sauce; Herring in tomato sauce; Anchovies
+K Vegetarian & deli
+G Meat alternatives = Tofu; Smoked tofu; Silken tofu; Tempeh; Veggie burgers; Veggie mince; Veggie sausages; Veggie cold cuts; Veggie schnitzel; Falafel
+G Deli salads = Potato salad; Pasta salad; Coleslaw; Meat salad; Egg salad; Tuna salad; Chicken salad; Waldorf salad
+G Dips & spreads = Hummus; Tzatziki; Guacamole; Aioli; Salsa dip; Herb dip; Red pepper spread; Vegan sandwich spread
+G Fresh pasta = Fresh tortellini; Fresh ravioli; Gnocchi; Maultaschen; Fresh spätzle; Schupfnudeln; Fresh pasta
+K Pasta, rice & pulses
+G Pasta = Spaghetti; Spaghettini; Penne; Fusilli; Farfalle; Rigatoni; Tagliatelle; Ribbon noodles; Macaroni; Lasagne sheets; Cannelloni; Egg noodles; Wholewheat pasta; Soup noodles; Elbow macaroni; Dried spätzle
+G Asian noodles = Egg noodles (mie); Glass noodles; Rice noodles; Udon noodles; Instant noodles
+G Rice = Rice; Long grain rice; Basmati rice; Jasmine rice; Risotto rice; Pudding rice; Brown rice; Wild rice; Sushi rice; Boil-in-the-bag rice
+G Grains & sides = Couscous; Bulgur; Quinoa; Millet; Polenta; Semolina; Instant mashed potato; Potato dumplings; Bread dumplings; Dumpling dough; Breadcrumbs
+G Dried pulses = Red lentils; Brown lentils; Green lentils; Beluga lentils; Dried chickpeas; Dried white beans; Split peas; Mixed beans
+K Tins & jars
+G Tomatoes = Passata; Chopped tomatoes; Peeled tomatoes; Tomato purée; Pizza tomatoes; Sun-dried tomatoes
+G Tinned & jarred vegetables = Sweetcorn; Kidney beans; Tinned white beans; Tinned chickpeas; Tinned lentils; Peas & carrots; Jarred green beans; Tinned mushrooms; Jarred beetroot; Sauerkraut; Jarred red cabbage; Jarred asparagus
+G Pickles & antipasti = Gherkins; Cornichons; Pickled silverskin onions; Mixed pickles; Green olives; Black olives; Capers; Jalapeños; Pickled peppers; Antipasti; Artichoke hearts
+G Tinned & jarred fruit = Apple sauce; Tinned peaches; Tinned pineapple; Tinned mandarins; Jarred cherries; Tinned pears; Fruit cocktail; Lingonberries
+G Soups & ready meals = Tinned soup; Stew; Goulash soup; Pea soup; Lentil soup; Tinned ravioli; Tinned chilli con carne; Packet soup; Ready meal; Potato soup
+K Baking
+G Flour & starch = Flour; Plain flour (type 405); Bread flour (type 550); Spelt flour; Wholemeal flour; Rye flour; Cornflour; Pizza flour
+G Sugar & sweeteners = Sugar; Icing sugar; Brown sugar; Cane sugar; Jam sugar; Vanilla sugar; Pearl sugar; Sweetener; Xylitol
+G Baking ingredients = Baking powder; Dried yeast; Fresh yeast; Bicarbonate of soda; Gelatine; Agar agar; Cocoa powder for baking; Chocolate couverture; Chocolate chips; Chocolate sprinkles; Sugar sprinkles; Cake glaze; Custard powder; Cream stabiliser; Baking flavourings; Grated lemon zest; Candied orange peel; Candied lemon peel; Marzipan; Fondant
+G Doughs & baking mixes = Puff pastry; Pizza dough; Shortcrust pastry; Yeast dough; Filo pastry; Tarte flambée dough; Croissant dough; Cake mix; Bread mix; Pancake mix
+K Spices, oil & sauces
+G Salt & pepper = Salt; Iodised salt; Sea salt; Herb salt; Black pepper; Mixed peppercorns; White pepper; Peppercorns
+G Spices = Sweet paprika; Hot paprika; Smoked paprika; Curry powder; Turmeric; Cumin; Caraway; Cinnamon; Nutmeg; Chilli flakes; Cayenne pepper; Garlic powder; Onion powder; Ground ginger; Cloves; Bay leaves; Juniper berries; Allspice; Star anise; Vanilla pod; Cardamom; Garam masala
+G Dried herbs & blends = Oregano; Dried basil; Dried thyme; Dried rosemary; Marjoram; Dried parsley; Dried chives; Dried dill; Herbes de Provence; Italian herbs; Salad herbs; BBQ seasoning; Gyros seasoning; Chicken seasoning; Chip seasoning
+G Oil & fat = Olive oil; Rapeseed oil; Sunflower oil; Coconut oil; Sesame oil; Linseed oil; Walnut oil; Frying oil; Deep-frying fat
+G Vinegar & lemon = Balsamic vinegar; Balsamic glaze; White wine vinegar; Cider vinegar; Herb vinegar; Spirit vinegar; Lemon juice; Lime juice
+G Mustard, ketchup & mayo = Ketchup; Curry ketchup; Mayonnaise; Salad cream; Medium mustard; Hot mustard; Sweet mustard; Dijon mustard; Remoulade; Jarred horseradish
+G Condiments & BBQ sauces = BBQ sauce; Barbecue sauce (smoky); Garlic sauce; Cocktail sauce; Soy sauce; Worcestershire sauce; Tabasco; Sriracha; Sweet chilli sauce; Teriyaki sauce; Pesto genovese; Red pesto; Salad dressing; Maggi seasoning
+G Stock & sauce thickener = Vegetable stock; Chicken stock; Beef stock; Concentrated stock; Gravy; White sauce; Hollandaise sauce; Sauce thickener; Seasoning mixes; Coconut milk; Curry paste
+K Frozen
+G Frozen vegetables & herbs = Frozen peas; Frozen spinach; Frozen creamed spinach; Frozen broccoli; Frozen Brussels sprouts; Frozen green beans; Frozen mixed vegetables; Frozen vegetable medley; Frozen soup vegetables; Frozen herbs; Frozen onions
+G Frozen potatoes = Chips; Croquettes; Rösti; Potato wedges; Frozen sautéed potatoes; Potato pancakes; Potato pockets
+G Frozen fish & meat = Fish fingers; Baked fish fillet; Frozen salmon fillet; Frozen prawns; Battered fish; Chicken nuggets; Frozen chicken wings; Cordon bleu; Frozen mince
+G Frozen ready meals = Pizza; Stone-baked pizza; Baguette pizza; Tarte flambée; Frozen lasagne; Frozen pan meal; Spring rolls; Vegetable patties; Frozen burger patties; Schupfnudel pan meal
+G Frozen fruit & bakery = Frozen mixed berries; Frozen raspberries; Frozen strawberries; Frozen mango; Frozen bake-at-home rolls; Frozen pretzels; Frozen gateau; Frozen apple strudel; Frozen cake
+G Ice cream = Vanilla ice cream; Chocolate ice cream; Stracciatella ice cream; Ice lollies; Ice cream bites; Sorbet; Ice cream cake; Ice cubes
+K Breakfast & spreads
+G Muesli & flakes = Fine rolled oats; Jumbo oats; Muesli; Fruit muesli; Crunchy muesli; Chocolate muesli; Granola; Cornflakes; Porridge; Breakfast cereal
+G Jam & honey = Jam; Strawberry jam; Apricot jam; Cherry jam; Raspberry jam; Orange marmalade; Plum butter; Honey; Forest honey; Set honey; Sugar beet syrup; Maple syrup; Agave syrup
+G Nut & chocolate spreads = Chocolate hazelnut spread; Peanut butter; Crunchy peanut butter; Almond butter; Hazelnut butter; Cashew butter; Chocolate spread
+K Sweets & snacks
+G Chocolate = Milk chocolate; Dark chocolate; White chocolate; Hazelnut chocolate; Whole hazelnut chocolate; Chocolate bars; Pralines; Chocolate bonbons
+G Biscuits & pastries = Biscuits; Butter biscuits; Chocolate biscuits; Sandwich biscuits; Wafers; Cantuccini; Speculoos; Gingerbread; Dominosteine; Stollen; Rice cakes; Cereal bars
+G Confectionery = Gummy bears; Sour fruit gums; Liquorice; Boiled sweets; Cough drops; Chewing gum; Marshmallows; Chocolate teacakes
+G Crisps & savoury snacks = Crisps; Ready salted crisps; Paprika crisps; Kettle chips; Tortilla chips; Pretzel sticks; Mini pretzels; Peanut puffs; Popcorn; Crackers; Cheese biscuits
+K Coffee, tea & cocoa
+G Coffee = Coffee; Coffee beans; Ground coffee; Espresso; Espresso beans; Coffee pods; Coffee capsules; Instant coffee; Decaf coffee; Cappuccino powder
+G Tea = Black tea; Green tea; Peppermint tea; Camomile tea; Fruit tea; Herbal tea; Fennel tea; Rooibos tea; Ginger tea; Sage tea; Cold & flu tea
+G Cocoa = Drinking chocolate powder; Cocoa powder; Hot chocolate
+K Drinks
+G Water = Mineral water; Sparkling water; Lightly sparkling water; Still water; Medicinal water
+G Juices = Orange juice; Apple juice; Apple spritzer; Multivitamin juice; Grape juice; Cherry juice; Tomato juice; Grapefruit juice; Smoothie; Not-from-concentrate juice
+G Lemonade & soft drinks = Cola; Cola Zero; Orangeade; Lemonade; Cola & orange mix; Peach iced tea; Lemon iced tea; Energy drink; Tonic water; Ginger ale; Bitter lemon; Cordial
+G Beer = Beer; Pilsner; Lager; Wheat beer; Alcohol-free beer; Alcohol-free wheat beer; Shandy; Export beer; Kölsch; Malt beer
+G Wine & sparkling wine = Red wine; White wine; Rosé wine; Sparkling wine; Prosecco; Champagne; Alcohol-free wine; Mulled wine; Cooking wine
+G Spirits = Korn (grain spirit); Vodka; Rum; Gin; Whisky; Brandy; Liqueur; Egg liqueur; Herbal liqueur; Aperol; Fruit brandy
+@hh
+K Cleaning
+G Cleaners = All-purpose cleaner; Bathroom cleaner; Toilet cleaner; Toilet rim blocks; Glass cleaner; Kitchen cleaner; Degreaser; Descaler; Cream cleaner; Floor cleaner; Wood polish; Oven cleaner; Drain cleaner; Disinfectant; Stainless steel cleaner
+G Cleaning aids = Sponges; Dishcloths; Microfibre cloths; Cleaning cloths; Rubber gloves; Mop head; Steel wool; Washing-up brush; Toilet brush; Vacuum cleaner bags
+K Dishes & kitchen
+G Washing up = Washing-up liquid; Dishwasher tablets; Rinse aid; Dishwasher salt; Dishwasher cleaner
+G Foils & bags = Kitchen roll; Aluminium foil; Cling film; Baking paper; Freezer bags; Bread bags; Greaseproof paper; Small bin bags; Large bin bags; Compost bags; Recycling bags (yellow); Coffee filters
+G Table & party = Napkins; Toothpicks; Barbecue lighters; Candles; Tea lights; Matches; Lighter; Paper plates; Disposable cups; Drinking straws
+K Laundry
+G Detergent = Laundry detergent; Universal detergent; Colour detergent; Delicates detergent; Wool detergent; Dark wash detergent; Laundry pods; Fabric softener; Laundry sanitiser; Stain remover; Ox-gall soap; Colour catcher sheets; Washing machine cleaner
+G Laundry accessories = Clothes pegs; Laundry bag; Ironing water; Dryer sheets
+K Paper & tissues
+G Paper = Toilet paper; Moist toilet tissue; Tissues; Box of tissues; Facial tissues; Wet wipes
+K Personal care
+G Shower & bath = Shower gel; Soap; Liquid soap; Soap refill; Bath foam; Body scrub
+G Hair = Shampoo; Conditioner; Hair mask; Hair gel; Hairspray; Hair wax; Hair dye; Hair ties
+G Skin & cream = Body lotion; Hand cream; Face cream; Night cream; Foot cream; Sun cream; After-sun; Lip balm; Petroleum jelly
+G Deodorant & shaving = Deodorant; Roll-on deodorant; Shaving foam; Shaving gel; Razor blades; Disposable razors; Aftershave; Perfume
+G Cosmetics & feminine care = Cotton pads; Cotton buds; Make-up remover wipes; Make-up remover; Nail file; Nail varnish remover; Sanitary pads; Tampons; Panty liners
+G Dental care = Toothpaste; Toothbrush; Replacement brush heads; Dental floss; Mouthwash; Interdental brushes; Denture adhesive; Denture cleaner
+K Health
+G First aid = Plasters; Blister plasters; Gauze bandages; Painkillers; Thermometer; Nasal spray; Throat lozenges; Wound ointment; Antiseptic spray; Heat patches; Cool packs; Insect repellent
+G Vitamins & supplements = Vitamin tablets; Vitamin D; Magnesium; Zinc; Effervescent tablets; Protein powder
+K Household goods
+G Electrics & odds and ends = AA batteries; AAA batteries; Button cells; 9V battery; LED bulb; Light bulb; Extension lead; Charging cable; Sticky tape; Parcel tape; Superglue; All-purpose glue; Scissors; Ballpoint pen; Notepad; Wrapping paper
+G Garden & barbecue = Charcoal; Charcoal briquettes; Potting compost; Fertiliser; Flowers; Plants; Bird food; Grit salt
+G Car = Screenwash; Antifreeze; Ice scraper; Engine oil
+K Pet supplies
+G Dog = Wet dog food; Dry dog food; Dog treats; Chew bones; Dog poo bags
+G Cat = Wet cat food; Dry cat food; Cat treats; Cat litter
+K Baby & child
+G Baby = Nappies; Baby wipes; Baby food; Baby porridge; Nappy cream; Baby shampoo
+@kl
+K Underwear & socks
+G Underwear = Underpants; Boxer shorts; Briefs; Bra; Vest; Thermal underwear; Long johns
+G Socks & tights = Socks; Trainer socks; Sports socks; Work socks; Wool socks; Knee-high socks; Tights; Compression stockings
+K Tops
+G Shirts & blouses = T-shirt; Long-sleeved top; Polo shirt; Top; Shirt; Blouse
+G Jumpers & cardigans = Jumper; Cardigan; Sweatshirt; Hoodie; Fleece jacket
+K Trousers, skirts & dresses
+G Trousers = Jeans; Chinos; Smart trousers; Tracksuit bottoms; Leggings; Shorts; Cargo trousers
+G Skirts & dresses = Skirt; Dress; Summer dress
+K Jackets & coats
+G Jackets = Jacket; Light jacket; Rain jacket; Winter jacket; Softshell jacket; Waistcoat; Coat; Suit; Blazer
+K Sleep, sport & swim
+G Nightwear = Pyjamas; Nightdress; Dressing gown
+G Sport & swim = Sports shirt; Sports trousers; Tracksuit; Swimming trunks; Swimsuit; Bikini
+K Workwear
+G Work = Work trousers; Work jacket; Work T-shirt; Work jumper; Knee pads; Work gloves; Work shoes; Safety shoes; High-visibility vest
+K Shoes
+G Shoes = Trainers; Lace-up shoes; Boots; Winter boots; Slippers; Sandals; Flip-flops; Wellington boots; Hiking boots
+G Shoe care = Shoelaces; Insoles; Shoe polish; Waterproofing spray
+K Accessories
+G Accessories = Woolly hat; Cap; Scarf; Gloves; Belt; Tie; Sunglasses; Umbrella; Bag; Purse

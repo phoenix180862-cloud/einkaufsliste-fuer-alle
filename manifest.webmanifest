@@ -1,0 +1,19 @@
+{
+  "name": "Einkaufsliste – Nie wieder Zettel schreiben",
+  "short_name": "Einkaufsliste",
+  "description": "Kostenlose Einkaufsliste nach Supermarkt-Abteilungen, in sechs Sprachen. Die Liste bleibt auf deinem Gerät.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#141414",
+  "theme_color": "#141414",
+  "lang": "de",
+  "categories": ["shopping", "lifestyle", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

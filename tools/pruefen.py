@@ -169,6 +169,31 @@ def main():
         pruefe(pg.evaluate('EKL.sprache') == 'uk', 'Sprachwahl wird gemerkt')
         c2.close(); c1.close()
 
+
+        print('3b. Firmenkarte, leere Liste, Über diese App')
+        c = kontext(); pg = seite(c); pg.goto(BASE); pg.wait_for_timeout(500)
+        pruefe(pg.is_visible('#leer') and pg.is_visible('#firmenKarte'), 'Leere Liste: freundlicher Leerzustand und Firmenkarte sichtbar')
+        pruefe(pg.locator('#startChips .chip').count() == 6, 'Leere Liste: 6 Start-Vorschläge')
+        pg.click('#startChips .chip >> nth=0'); pg.wait_for_timeout(150)
+        pruefe(len(pg.evaluate('EKL.liste()')) == 1 and pg.is_visible('#firmenKarte'), 'Start-Vorschlag fügt hinzu, Firmenkarte bleibt unter der Liste')
+        link = pg.locator('#firmenKarte a')
+        pruefe(link.get_attribute('href') == 'https://www.thomas-willwacher.de/' and link.get_attribute('target') == '_blank', 'Firmenkarte: Link www.thomas-willwacher.de, neues Fenster')
+        logo = pg.evaluate("""() => { const i = [...document.querySelectorAll('#firmenKarte img')].find(x => x.offsetParent); return i ? { w: i.getBoundingClientRect().width, h: i.getBoundingClientRect().height, n: i.naturalWidth, src: i.getAttribute('src') } : null; }""")
+        pruefe(bool(logo) and logo['n'] > 0 and 140 <= logo['w'] <= 170 and abs(logo['w'] / logo['h'] - 480 / 141) < 0.06, f'Firmenkarte: Logo lokal geladen, {logo and round(logo["w"])} px breit, Seitenverhältnis original ({logo and logo["src"]})')
+        pg.click('#btnEinst'); pg.wait_for_timeout(200)
+        hrefs = pg.eval_on_selector_all('#dlgEinst .ueber a', 'as => as.map(a => a.getAttribute("href"))')
+        soll = ['https://www.thomas-willwacher.de/', 'mailto:info@thomas-willwacher.de', 'https://phoenix180862-cloud.github.io/kochbuch-was-isst-die-welt/', 'https://phoenix180862-cloud.github.io/tw-cad-frei/', 'https://phoenix180862-cloud.github.io/tw-bildstudio-frei/']
+        pruefe(hrefs == soll, 'Über diese App: Webseite, E-Mail und 3 weitere Programme verlinkt')
+        txt = pg.inner_text('#ueberText')
+        pruefe('Thomas Willwacher Fliesenlegermeister e.K.' in txt and 'Nisterau' in txt, 'Über diese App: Firmentext mit Name und Ort')
+        lw = pg.evaluate("() => { const i = [...document.querySelectorAll('#dlgEinst .ueber img')].find(x => x.offsetParent); return i ? i.getBoundingClientRect().width : 0; }")
+        pruefe(0 < lw <= 200, f'Über diese App: Logo {round(lw)} px breit (höchstens 200)')
+        pg.evaluate("document.documentElement.setAttribute('data-theme','dunkel')"); pg.wait_for_timeout(100)
+        src = pg.evaluate("() => [...document.querySelectorAll('#firmenKarte img')].find(x => x.offsetParent).getAttribute('src')")
+        pruefe(src.endswith('logo-auf-dunkel.webp'), 'Dunkelmodus: helle Original-Logofassung (weiß/rot)')
+        pruefe(pg.locator('a[href^="tel:"]').count() == 0, 'keine Telefonnummer/tel:-Links')
+        c.close()
+
         print('4. Sprachen bei 390 px')
         for code in codes:
             c = kontext(); pg = seite(c); pg.goto(BASE); pg.wait_for_timeout(300)

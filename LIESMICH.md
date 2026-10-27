@@ -19,20 +19,25 @@ Ein kostenloses Programm von Thomas Willwacher Fliesenlegermeister e.K. · www.t
 - **Als Text teilen:** lesbare Liste nach Abteilungen. Link **oder** Text lassen sich im Teilen-Fenster auch einfügen („Liste bekommen?“) – wichtig für iPhones, weil eine installierte iPhone-App einen eigenen Speicher hat.
 - Hell / Dunkel / wie das Gerät, Sprachwahl (Kopf und Einstellungen), „Als App installieren“ (Android/Chrome: Systemdialog; iPhone/iPad: Anleitung)
 - Hilfe-Fenster mit 5 Themen, je ein Video mit Untertiteln und Sprecherstimme in der gewählten Sprache, Lautstärkeregler
+- Freundlicher Leerzustand mit 6 Start-Vorschlägen zum Antippen
+- **Firmenkarte** (dezent, unter der Liste und im Leerzustand): Logo, „Ein Geschenk von Ihrem Fliesenlegermeister“, Leistungszeile, Knopf www.thomas-willwacher.de
+- **Einstellungen → „Über diese App“:** Logo, kurzer Firmentext, Webseite, E-Mail (keine Telefonnummer) und Links zu den weiteren kostenlosen Programmen
+  (Kochbuch „Was isst die Welt?“, TW-CAD, TW Bildstudio)
 
 ## Aufbau
 
 | Datei / Ordner | Inhalt |
 |---|---|
 | `index.html` | Seite mit allen Fenstern |
-| `app.css` | Gestaltung (Akzentrot #E2232A, Archivo / Archivo Narrow; Kyrillisch über Fira Sans) |
+| `app.css` | Gestaltung: Kopf Grün #1f7a4d, Akzent Gelb #ffd23f, Hintergrund #f3f5f2, Rot nur für Löschen/Warnungen; Archivo / Archivo Narrow, Kyrillisch über Fira Sans |
 | `app.js` | Programmlogik |
 | `texte.js` | **alle Oberflächentexte** in 6 Sprachen, inkl. Hilfe-Texte und Video-Untertitel (`v_…`) |
 | `katalog/quelle/de.txt` | **deutscher Artikelkatalog (Hauptfassung)** mit Abteilungsfarben |
 | `katalog/quelle/<sprache>.txt` | Übersetzungen, Zeile für Zeile in derselben Reihenfolge |
 | `katalog/*.js` | daraus erzeugt – nicht von Hand ändern |
 | `sw.js`, `manifest.webmanifest` | Offline-Betrieb, Installation, automatische Updates |
-| `icons/` | App-Symbole (erzeugt mit `tools/symbole.py`) |
+| `icons/` | App-Symbole Grün/Gelb (erzeugt mit `tools/symbole.py`) |
+| `img/logo-auf-hell.webp`, `img/logo-auf-dunkel.webp` | Firmenlogo in **Originalfarben** (schwarz/rot für hellen Grund, weiß/rot für den Dunkelmodus). Nie umfärben, beschneiden oder verzerren; Seitenverhältnis 480:141; Firmenkarte 156 px, „Über diese App“ 200 px breit |
 | `fonts/` | Schriften (lokal, OFL-Lizenz – siehe `OFL-*.txt`) |
 | `hilfe/videos/<sprache>/<thema>.mp4/.jpg`, `info.json` | Hilfe-Videos |
 | `tools/` | Werkzeuge zum Bauen, Prüfen, Aufnehmen (werden von der App nicht geladen) |

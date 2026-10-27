@@ -7,7 +7,7 @@
 (function () {
 "use strict";
 
-const VERSION = "1.0.0";
+const VERSION = "1.1.0";
 const SPRACHEN = window.EKL_SPRACHEN.map(s => s.code);
 const BEREICHE = ["lm", "hh", "kl"];
 const HILFE_THEMEN = ["hinzufuegen", "katalog", "abhaken", "teilen", "installieren"];
@@ -50,6 +50,8 @@ function texteAnwenden() {
   $("spracheKurz").textContent = sprache.toUpperCase();
   $("versionText").textContent = t("version", { v: VERSION });
   $("einstVersion").textContent = t("version", { v: VERSION });
+  $("ueberText").textContent = t("ueber_text", { firma: "Thomas Willwacher Fliesenlegermeister e.K.", ort: "Nisterau" });
+  document.querySelectorAll('a[target="_blank"]').forEach(a => { a.title = t("neues_fenster"); });
   eingabePlatzhalter();
 }
 
@@ -235,6 +237,8 @@ function zeichnen() {
   $("wagenText").textContent = t("im_wagen", { n: erledigt.length });
   $("wagenKopf").hidden = !erledigt.length;
   $("leer").hidden = eintraege.length !== 0;
+  document.querySelector("#ansichtListe .leiste").hidden = eintraege.length === 0;
+  if (!eintraege.length) $("startChips").innerHTML = START_ARTIKEL.filter(id => ART.has(id)).map(id => `<button type="button" class="chip" data-start="${id}">${SYM.plus}<span>${esc(ART.get(id).name)}</span></button>`).join("");
   $("btnTeilen").disabled = !offen.length && !eintraege.length;
   installKarteZeigen();
   frisch = null;
@@ -340,6 +344,8 @@ function listenKlick(ev) {
 $("offenBereich").addEventListener("click", listenKlick);
 $("listeErledigt").addEventListener("click", listenKlick);
 $("btnAufraeumen").addEventListener("click", aufraeumen);
+const START_ARTIKEL = ["vollmilch", "brot", "eier", "butter", "aepfel", "kaffee"];
+$("startChips").addEventListener("click", ev => { const c = ev.target.closest("[data-start]"); if (c) hinzufuegen(ART.get(c.dataset.start).name, "", true); });
 
 $("katalog").addEventListener("click", ev => {
   if (ev.target.closest("[data-suche-weg]")) { eingabeLeeren(); zeichnen(); return; }
@@ -574,7 +580,7 @@ function themaKnoepfe() {
   $("themaWahl").querySelectorAll("[data-thema]").forEach(b => b.setAttribute("aria-checked", b.dataset.thema === (th === "hell" || th === "dunkel" ? th : "auto")));
 }
 function themaFarbe() {
-  const m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = "#141414";
+  const m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = "#1f7a4d";
 }
 $("themaWahl").addEventListener("click", ev => { const b = ev.target.closest("[data-thema]"); if (b) themaSetzen(b.dataset.thema); });
 

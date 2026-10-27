@@ -1,12 +1,13 @@
 // Einkaufsliste – Service Worker: App-Hülle für schnellen Start und Offline-Betrieb.
 // Bei JEDER Änderung an der App die Versionsnummer erhöhen (gleich wie VERSION in app.js).
 // Strategie „Netz zuerst“: ist das Gerät online, kommt immer der neueste Stand; der Cache ist nur Rückfall.
-const VERSION = "1.0.0";
+const VERSION = "1.1.0";
 const CACHE = "ekl-" + VERSION;
 const PRAEFIX = "ekl-";            // nur eigene Caches anfassen – andere Apps derselben Adresse bleiben unberührt
 const HUELLE = [
   "./", "index.html", "app.css", "app.js", "texte.js", "manifest.webmanifest",
   "katalog/aufbau.js", "katalog/de.js", "katalog/en.js", "katalog/cs.js", "katalog/sk.js", "katalog/uk.js", "katalog/pl.js",
+  "img/logo-auf-hell.webp", "img/logo-auf-dunkel.webp",
   "icons/favicon.svg", "icons/favicon-32.png", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png",
   "fonts/archivo-latin-400-normal.woff2", "fonts/archivo-latin-600-normal.woff2", "fonts/archivo-latin-700-normal.woff2",
   "fonts/archivo-latin-ext-400-normal.woff2", "fonts/archivo-latin-ext-600-normal.woff2", "fonts/archivo-latin-ext-700-normal.woff2",

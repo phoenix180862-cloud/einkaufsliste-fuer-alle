@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Einkaufsliste</title>
 <meta name="description" content="Kostenlose Einkaufsliste – nach Supermarkt-Abteilungen sortiert, über 1.200 Artikel, in sechs Sprachen. Die Liste bleibt auf deinem Gerät.">
-<meta name="theme-color" content="#141414">
+<meta name="theme-color" content="#1f7a4d">
 <meta name="color-scheme" content="light dark">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -94,9 +94,20 @@
       </button>
     </div>
     <div id="leer" class="leer" hidden>
-      <svg class="sym gross" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 10.5a1.5 1.5 0 0 0 1.5 1.2h8.6a1.5 1.5 0 0 0 1.4-1.1L21 8H6"/><circle cx="9.5" cy="19.5" r="1.3"/><circle cx="17" cy="19.5" r="1.3"/></svg>
+      <svg class="leer-bild" viewBox="0 0 120 120" aria-hidden="true">
+        <circle cx="60" cy="60" r="56" class="lb-kreis"/>
+        <rect x="34" y="22" width="52" height="74" rx="7" class="lb-zettel"/>
+        <circle cx="46" cy="42" r="6" class="lb-gelb"/><path d="M43.2 42.2l2 2 3.8-4" class="lb-haken"/>
+        <rect x="56" y="40" width="22" height="4" rx="2" class="lb-linie"/>
+        <circle cx="46" cy="60" r="6" class="lb-gelb"/><path d="M43.2 60.2l2 2 3.8-4" class="lb-haken"/>
+        <rect x="56" y="58" width="18" height="4" rx="2" class="lb-linie"/>
+        <circle cx="46" cy="78" r="5.2" class="lb-offen"/>
+        <rect x="56" y="76" width="22" height="4" rx="2" class="lb-linie dunkel"/>
+      </svg>
       <strong data-t="leer_titel">Die Liste ist leer.</strong>
       <span data-t="leer_text"></span>
+      <span class="leer-tipp" data-t="leer_tipp"></span>
+      <div class="chips start-chips" id="startChips"></div>
     </div>
     <div id="offenBereich"></div>
     <div class="abschnitt wagen-kopf" id="wagenKopf" hidden>
@@ -107,6 +118,13 @@
       <button type="button" id="btnAufraeumen" class="knopf leise-rot" data-t="erledigte_entfernen">Erledigte entfernen</button>
     </div>
     <ul id="listeErledigt" class="liste"></ul>
+
+    <aside class="karte firmen-karte" id="firmenKarte" data-t-aria="firma_aria" aria-label="Über den Anbieter dieser App">
+      <img class="firmen-logo logo-hell-modus" src="img/logo-auf-hell.webp" width="156" height="46" alt="Thomas Willwacher Fliesenlegermeister e.K."><img class="firmen-logo logo-dunkel-modus" src="img/logo-auf-dunkel.webp" width="156" height="46" alt="Thomas Willwacher Fliesenlegermeister e.K.">
+      <p class="firmen-geschenk" data-t="firma_geschenk">Ein Geschenk von Ihrem Fliesenlegermeister</p>
+      <p class="firmen-zeile" data-t="firma_zeile"></p>
+      <a class="knopf zweit firmen-link" href="https://www.thomas-willwacher.de/" target="_blank" rel="noopener"><svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg><span>www.thomas-willwacher.de</span></a>
+    </aside>
 
     <div id="installKarte" class="karte install-karte" hidden>
       <img src="icons/icon-192.png" alt="" width="52" height="52">
@@ -235,6 +253,22 @@
       </div>
       <h3 data-t="install_titel"></h3>
       <div id="einstInstall"></div>
+      <div class="trenner"></div>
+      <h3 id="ueberTitel" data-t="ueber_titel">Über diese App</h3>
+      <div class="ueber">
+        <img class="ueber-logo logo-hell-modus" src="img/logo-auf-hell.webp" width="200" height="59" alt="Thomas Willwacher Fliesenlegermeister e.K."><img class="ueber-logo logo-dunkel-modus" src="img/logo-auf-dunkel.webp" width="200" height="59" alt="Thomas Willwacher Fliesenlegermeister e.K.">
+        <p id="ueberText"></p>
+        <div class="knopf-stapel">
+          <a class="knopf zweit breit-knopf" href="https://www.thomas-willwacher.de/" target="_blank" rel="noopener"><svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg><span>www.thomas-willwacher.de</span></a>
+          <a class="knopf zweit breit-knopf" href="mailto:info@thomas-willwacher.de"><svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m3.5 7 8.5 6.5L20.5 7"/></svg><span><span data-t="ueber_mail">E-Mail</span>: info@thomas-willwacher.de</span></a>
+        </div>
+        <h3 data-t="weitere_titel">Weitere kostenlose Programme</h3>
+        <ul class="programme">
+          <li><a href="https://phoenix180862-cloud.github.io/kochbuch-was-isst-die-welt/" target="_blank" rel="noopener"><strong>Kochbuch „Was isst die Welt?“</strong><span data-t="prog_kochbuch"></span></a></li>
+          <li><a href="https://phoenix180862-cloud.github.io/tw-cad-frei/" target="_blank" rel="noopener"><strong>TW-CAD</strong><span data-t="prog_cad"></span></a></li>
+          <li><a href="https://phoenix180862-cloud.github.io/tw-bildstudio-frei/" target="_blank" rel="noopener"><strong>TW Bildstudio</strong><span data-t="prog_bild"></span></a></li>
+        </ul>
+      </div>
       <div class="trenner"></div>
       <p class="datenschutz-zeile">
         <svg class="sym klein" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>

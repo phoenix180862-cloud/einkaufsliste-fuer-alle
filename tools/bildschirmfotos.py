@@ -14,7 +14,7 @@ LISTE = [('aepfel', '', '1 kg', False), ('bananen', '', '', False), ('tomaten', 
 EIGEN = {'sk': 'Pohľadnica pre babku', 'uk': 'Листівка для бабусі'}
 
 
-def saat(sp, thema='hell'):
+def saat(sp, thema='hell', leer=False):
     e = []
     for i, (a, x, m, d) in enumerate(LISTE):
         z = {'id': f's{i}', 't': i + 1}
@@ -23,6 +23,7 @@ def saat(sp, thema='hell'):
         if m: z['m'] = m
         if d: z['d'] = True; z['td'] = 100 + i
         e.append(z)
+    if leer: e = []
     return ("try{localStorage.setItem('ekl_sprache','%s');localStorage.setItem('ekl_liste',%s);localStorage.setItem('ekl_install_weg','1');localStorage.setItem('ekl_thema','%s');}catch(e){}"
             % (sp, json.dumps(json.dumps({'v': 1, 'e': e})), thema))
 
@@ -37,10 +38,10 @@ def main():
     with sync_playwright() as p:
         b = p.chromium.launch()
 
-        def seite(sp='de', thema='hell', w=390, h=844):
+        def seite(sp='de', thema='hell', w=390, h=844, leer=False):
             c = b.new_context(viewport={'width': w, 'height': h}, device_scale_factor=2, color_scheme='dark' if thema == 'dunkel' else 'light',
                               permissions=['clipboard-read', 'clipboard-write'])
-            c.add_init_script(saat(sp, thema)); pg = c.new_page(); pg.goto(BASE); pg.wait_for_timeout(900)
+            c.add_init_script(saat(sp, thema, leer)); pg = c.new_page(); pg.goto(BASE); pg.wait_for_timeout(900)
             pg.evaluate('document.fonts.ready'); return c, pg
 
         def foto(pg, name): pg.mouse.move(2, 300); pg.wait_for_timeout(300); pg.screenshot(path=os.path.join(ZIEL, name)); print(name)
@@ -59,6 +60,9 @@ def main():
         pg.click('details.kat >> nth=0 >> summary'); pg.evaluate("document.getElementById('ansichtKatalog').scrollTop=0"); foto(pg, '07-tablet-quer.png'); c.close()
         c, pg = seite('sk'); foto(pg, '08-liste-slowakisch.png'); c.close()
         c, pg = seite('uk'); foto(pg, '09-liste-ukrainisch.png'); c.close()
+        c, pg = seite(); pg.click('#btnEinst'); pg.wait_for_timeout(300)
+        pg.evaluate("document.getElementById('ueberTitel').scrollIntoView({block:'start'})"); foto(pg, '10-ueber-diese-app.png'); c.close()
+        c, pg = seite(leer=True); foto(pg, '11-leere-liste.png'); c.close()
         b.close()
     srv.shutdown()
 

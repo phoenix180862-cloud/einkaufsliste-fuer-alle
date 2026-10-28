@@ -7,7 +7,7 @@
 (function () {
 "use strict";
 
-const VERSION = "1.1.0";
+const VERSION = "1.2.0";
 const SPRACHEN = window.EKL_SPRACHEN.map(s => s.code);
 const BEREICHE = ["lm", "hh", "kl"];
 const HILFE_THEMEN = ["hinzufuegen", "katalog", "abhaken", "teilen", "installieren"];
@@ -50,7 +50,7 @@ function texteAnwenden() {
   $("spracheKurz").textContent = sprache.toUpperCase();
   $("versionText").textContent = t("version", { v: VERSION });
   $("einstVersion").textContent = t("version", { v: VERSION });
-  $("ueberText").textContent = t("ueber_text", { firma: "Thomas Willwacher Fliesenlegermeister e.K.", ort: "Nisterau" });
+  $("ueberText").textContent = t("ueber_text", { firma: "Thomas Willwacher Fliesenlegermeister e.K." });
   document.querySelectorAll('a[target="_blank"]').forEach(a => { a.title = t("neues_fenster"); });
   eingabePlatzhalter();
 }
@@ -570,6 +570,13 @@ document.addEventListener("click", ev => {
 });
 $("btnSprache").addEventListener("click", () => { sprachListeZeichnen(); fensterAuf("dlgSprache"); });
 $("btnEinst").addEventListener("click", () => { sprachListeZeichnen(); themaKnoepfe(); einstInstallZeichnen(); fensterAuf("dlgEinst"); });
+// Firmenlogo im Kopf: öffnet „Über diese App“ in den Einstellungen
+function ueberOeffnen() {
+  sprachListeZeichnen(); themaKnoepfe(); einstInstallZeichnen(); fensterAuf("dlgEinst");
+  setTimeout(() => { const z = $("ueberTitel"); if (z) z.scrollIntoView({ block: "start" }); }, 60);
+}
+$("btnLogo").addEventListener("click", ueberOeffnen);
+$("btnLogoKlein").addEventListener("click", ueberOeffnen);
 
 function themaSetzen(th) {
   if (th === "hell" || th === "dunkel") document.documentElement.setAttribute("data-theme", th); else document.documentElement.removeAttribute("data-theme");

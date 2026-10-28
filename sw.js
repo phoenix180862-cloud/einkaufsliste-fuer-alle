@@ -1,7 +1,7 @@
 // Einkaufsliste – Service Worker: App-Hülle für schnellen Start und Offline-Betrieb.
 // Bei JEDER Änderung an der App die Versionsnummer erhöhen (gleich wie VERSION in app.js).
 // Strategie „Netz zuerst“: ist das Gerät online, kommt immer der neueste Stand; der Cache ist nur Rückfall.
-const VERSION = "1.1.0";
+const VERSION = "1.2.0";
 const CACHE = "ekl-" + VERSION;
 const PRAEFIX = "ekl-";            // nur eigene Caches anfassen – andere Apps derselben Adresse bleiben unberührt
 const HUELLE = [

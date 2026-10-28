@@ -29,10 +29,12 @@
 <header class="kopf">
   <div class="breite">
     <div class="kopf-zeile">
-      <img class="logo" src="icons/favicon.svg" alt="" width="40" height="40">
       <div class="titel">
         <h1 data-t="app_titel">Einkaufsliste</h1>
         <p data-t="app_unter">Nie wieder Zettel schreiben</p>
+        <button type="button" id="btnLogoKlein" class="logo-schild logo-schild-schmal" data-t-aria="ueber_titel" aria-label="Über diese App">
+          <img src="img/logo-auf-hell.webp" width="480" height="141" alt="Thomas Willwacher Fliesenlegermeister e.K.">
+        </button>
       </div>
       <button type="button" id="btnSprache" class="kopf-knopf sprach-knopf" data-t-aria="aria_sprache" aria-label="Sprache wählen">
         <svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg>
@@ -43,6 +45,9 @@
       </button>
       <button type="button" id="btnEinst" class="kopf-knopf" data-t-aria="aria_einst" aria-label="Einstellungen">
         <svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+      </button>
+      <button type="button" id="btnLogo" class="logo-schild logo-schild-breit" data-t-aria="ueber_titel" aria-label="Über diese App">
+        <img src="img/logo-auf-hell.webp" width="480" height="141" alt="Thomas Willwacher Fliesenlegermeister e.K.">
       </button>
     </div>
 
@@ -119,12 +124,6 @@
     </div>
     <ul id="listeErledigt" class="liste"></ul>
 
-    <aside class="karte firmen-karte" id="firmenKarte" data-t-aria="firma_aria" aria-label="Über den Anbieter dieser App">
-      <img class="firmen-logo logo-hell-modus" src="img/logo-auf-hell.webp" width="156" height="46" alt="Thomas Willwacher Fliesenlegermeister e.K."><img class="firmen-logo logo-dunkel-modus" src="img/logo-auf-dunkel.webp" width="156" height="46" alt="Thomas Willwacher Fliesenlegermeister e.K.">
-      <p class="firmen-geschenk" data-t="firma_geschenk">Ein Geschenk von Ihrem Fliesenlegermeister</p>
-      <p class="firmen-zeile" data-t="firma_zeile"></p>
-      <a class="knopf zweit firmen-link" href="https://www.thomas-willwacher.de/" target="_blank" rel="noopener"><svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg><span>www.thomas-willwacher.de</span></a>
-    </aside>
 
     <div id="installKarte" class="karte install-karte" hidden>
       <img src="icons/icon-192.png" alt="" width="52" height="52">

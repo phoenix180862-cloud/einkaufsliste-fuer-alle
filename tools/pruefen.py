@@ -170,29 +170,34 @@ def main():
         c2.close(); c1.close()
 
 
-        print('3b. Firmenkarte, leere Liste, Über diese App')
-        c = kontext(); pg = seite(c); pg.goto(BASE); pg.wait_for_timeout(500)
-        pruefe(pg.is_visible('#leer') and pg.is_visible('#firmenKarte'), 'Leere Liste: freundlicher Leerzustand und Firmenkarte sichtbar')
-        pruefe(pg.locator('#startChips .chip').count() == 6, 'Leere Liste: 6 Start-Vorschläge')
-        pg.click('#startChips .chip >> nth=0'); pg.wait_for_timeout(150)
-        pruefe(len(pg.evaluate('EKL.liste()')) == 1 and pg.is_visible('#firmenKarte'), 'Start-Vorschlag fügt hinzu, Firmenkarte bleibt unter der Liste')
-        link = pg.locator('#firmenKarte a')
-        pruefe(link.get_attribute('href') == 'https://www.thomas-willwacher.de/' and link.get_attribute('target') == '_blank', 'Firmenkarte: Link www.thomas-willwacher.de, neues Fenster')
-        logo = pg.evaluate("""() => { const i = [...document.querySelectorAll('#firmenKarte img')].find(x => x.offsetParent); return i ? { w: i.getBoundingClientRect().width, h: i.getBoundingClientRect().height, n: i.naturalWidth, src: i.getAttribute('src') } : null; }""")
-        pruefe(bool(logo) and logo['n'] > 0 and 140 <= logo['w'] <= 170 and abs(logo['w'] / logo['h'] - 480 / 141) < 0.06, f'Firmenkarte: Logo lokal geladen, {logo and round(logo["w"])} px breit, Seitenverhältnis original ({logo and logo["src"]})')
-        pg.click('#btnEinst'); pg.wait_for_timeout(200)
-        hrefs = pg.eval_on_selector_all('#dlgEinst .ueber a', 'as => as.map(a => a.getAttribute("href"))')
-        soll = ['https://www.thomas-willwacher.de/', 'mailto:info@thomas-willwacher.de', 'https://phoenix180862-cloud.github.io/kochbuch-was-isst-die-welt/', 'https://phoenix180862-cloud.github.io/tw-cad-frei/', 'https://phoenix180862-cloud.github.io/tw-bildstudio-frei/']
-        pruefe(hrefs == soll, 'Über diese App: Webseite, E-Mail und 3 weitere Programme verlinkt')
-        txt = pg.inner_text('#ueberText')
-        pruefe('Thomas Willwacher Fliesenlegermeister e.K.' in txt and 'Nisterau' in txt, 'Über diese App: Firmentext mit Name und Ort')
-        lw = pg.evaluate("() => { const i = [...document.querySelectorAll('#dlgEinst .ueber img')].find(x => x.offsetParent); return i ? i.getBoundingClientRect().width : 0; }")
-        pruefe(0 < lw <= 200, f'Über diese App: Logo {round(lw)} px breit (höchstens 200)')
-        pg.evaluate("document.documentElement.setAttribute('data-theme','dunkel')"); pg.wait_for_timeout(100)
-        src = pg.evaluate("() => [...document.querySelectorAll('#firmenKarte img')].find(x => x.offsetParent).getAttribute('src')")
-        pruefe(src.endswith('logo-auf-dunkel.webp'), 'Dunkelmodus: helle Original-Logofassung (weiß/rot)')
-        pruefe(pg.locator('a[href^="tel:"]').count() == 0, 'keine Telefonnummer/tel:-Links')
-        c.close()
+        print('3b. Leere Liste, Logo im Kopf, Über diese App')
+        logo_js = """() => { const e = [...document.querySelectorAll('.logo-schild')].find(x => x.offsetParent); if (!e) return null;
+            const r = e.getBoundingClientRect(), i = e.querySelector('img'), ri = i.getBoundingClientRect(), k = document.querySelector('.kopf').getBoundingClientRect();
+            return { h: r.height, iw: ri.width, ih: ri.height, n: i.naturalWidth, src: i.getAttribute('src'), imKopf: r.top >= k.top && r.bottom <= k.bottom, rechts: r.right }; }"""
+        for breite, lo, hi in [(390, 28, 32), (1180, 36, 40)]:
+            c = kontext(breite=breite, hoehe=844 if breite < 1000 else 820); pg = seite(c); pg.goto(BASE); pg.wait_for_timeout(500)
+            L = pg.evaluate(logo_js)
+            pruefe(bool(L) and L['imKopf'] and L['n'] > 0 and L['src'] == 'img/logo-auf-hell.webp' and lo <= L['h'] <= hi and abs(L['iw'] / L['ih'] - 480 / 141) < 0.06 and L['rechts'] <= breite,
+                   f'{breite} px: Original-Logo auf weißem Schild im grünen Kopf, {L and round(L["h"])} px hoch, Seitenverhältnis original')
+            if breite == 390:
+                pruefe(pg.locator('#firmenKarte, .firmen-karte').count() == 0, 'keine Firmenkarte (Liste und Leerzustand)')
+                pruefe(pg.is_visible('#leer') and pg.locator('#startChips .chip').count() == 6, 'Leere Liste: Leerzustand mit 6 Start-Vorschlägen')
+                pg.click('#startChips .chip >> nth=0'); pg.wait_for_timeout(150)
+                pruefe(len(pg.evaluate('EKL.liste()')) == 1, 'Start-Vorschlag fügt hinzu')
+                pg.evaluate("document.documentElement.setAttribute('data-theme','dunkel')"); pg.wait_for_timeout(100)
+                L2 = pg.evaluate(logo_js); bg = pg.evaluate("getComputedStyle([...document.querySelectorAll('.logo-schild')].find(x => x.offsetParent)).backgroundColor")
+                pruefe(L2['src'] == 'img/logo-auf-hell.webp' and bg == 'rgb(255, 255, 255)', 'Dunkelmodus: weißes Schild mit Original-Logo')
+                pg.evaluate("document.documentElement.removeAttribute('data-theme')")
+                pg.click('.logo-schild:visible'); pg.wait_for_timeout(300)
+                pruefe(pg.is_visible('#dlgEinst') and pg.evaluate("(() => { const r = document.getElementById('ueberTitel').getBoundingClientRect(); return r.top >= 0 && r.top < innerHeight; })()"), 'Logo antippen öffnet „Über diese App“')
+                hrefs = pg.eval_on_selector_all('#dlgEinst .ueber a', 'as => as.map(a => a.getAttribute("href"))')
+                soll = ['https://www.thomas-willwacher.de/', 'mailto:info@thomas-willwacher.de', 'https://phoenix180862-cloud.github.io/kochbuch-was-isst-die-welt/', 'https://phoenix180862-cloud.github.io/tw-cad-frei/', 'https://phoenix180862-cloud.github.io/tw-bildstudio-frei/']
+                pruefe(hrefs == soll, 'Über diese App: Webseite, E-Mail und 3 weitere Programme verlinkt')
+                pruefe(pg.inner_text('#ueberText') == 'Ein kostenloses Programm von Thomas Willwacher Fliesenlegermeister e.K.', 'Über diese App: nur ein Satz')
+                lw = pg.evaluate("() => { const i = [...document.querySelectorAll('#dlgEinst .ueber img')].find(x => x.offsetParent); return i ? i.getBoundingClientRect().width : 0; }")
+                pruefe(0 < lw <= 200, f'Über diese App: Logo {round(lw)} px breit (höchstens 200)')
+                pruefe(pg.locator('a[href^="tel:"]').count() == 0, 'keine tel:-Links')
+            c.close()
 
         print('4. Sprachen bei 390 px')
         for code in codes:

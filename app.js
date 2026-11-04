@@ -7,7 +7,8 @@
 (function () {
 "use strict";
 
-const VERSION = "1.2.0";
+// Versionsnummer steht nur in index.html (<meta name="tw-version">) – dort erhöhen.
+const VERSION = ((document.querySelector('meta[name="tw-version"]') || {}).content || "?").trim();
 const SPRACHEN = window.EKL_SPRACHEN.map(s => s.code);
 const BEREICHE = ["lm", "hh", "kl"];
 const HILFE_THEMEN = ["hinzufuegen", "katalog", "abhaken", "teilen", "installieren"];
@@ -43,6 +44,7 @@ function t(k, werte) {
 }
 function texteAnwenden() {
   document.documentElement.lang = sprache;
+  if (window.TWVersion) window.TWVersion.sprache(sprache);   // Versions-Pille und Update-Balken in der gewählten Sprache
   document.querySelectorAll("[data-t]").forEach(el => { el.textContent = t(el.dataset.t); });
   document.querySelectorAll("[data-t-aria]").forEach(el => { el.setAttribute("aria-label", t(el.dataset.tAria)); el.title = t(el.dataset.tAria); });
   document.querySelectorAll("[data-t-platz]").forEach(el => { el.placeholder = t(el.dataset.tPlatz); });
@@ -667,7 +669,7 @@ async function start() {
   if (breit.matches) tabWechseln("liste"); else zeichnen();
   hashPruefen();
   if ("serviceWorker" in navigator && location.protocol !== "file:") {
-    navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).then(r => { try { r.update(); } catch (e) {} }).catch(() => {});
+    navigator.serviceWorker.register("sw.js?v=" + encodeURIComponent(VERSION), { updateViaCache: "none" }).then(r => { try { r.update(); } catch (e) {} }).catch(() => {});
   }
 }
 // Schnittstelle für Tests und Hilfe-Videos (keine Daten nach außen)

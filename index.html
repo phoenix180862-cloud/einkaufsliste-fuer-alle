@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Versionsnummer: NUR hier ändern (app.js und sw.js lesen sie von hier) -->
+<meta name="tw-version" content="1.3.0">
 <title>Einkaufsliste</title>
 <meta name="description" content="Kostenlose Einkaufsliste – nach Supermarkt-Abteilungen sortiert, über 1.200 Artikel, in sechs Sprachen. Die Liste bleibt auf deinem Gerät.">
 <meta name="theme-color" content="#1f7a4d">
@@ -18,6 +20,7 @@
 <link rel="preload" href="fonts/archivo-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/archivo-narrow-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="app.css">
+<script defer src="lib/tw-version.js"></script>
 <script>
   // Darstellung so früh wie möglich setzen (kein Aufblitzen). Speicher kann gesperrt sein → try/catch.
   try { var th = localStorage.getItem("ekl_thema"); if (th === "hell" || th === "dunkel") document.documentElement.setAttribute("data-theme", th); } catch (e) {}
@@ -31,10 +34,13 @@
     <div class="kopf-zeile">
       <div class="titel">
         <h1 data-t="app_titel">Einkaufsliste</h1>
-        <p data-t="app_unter">Nie wieder Zettel schreiben</p>
-        <button type="button" id="btnLogoKlein" class="logo-schild logo-schild-schmal" data-t-aria="ueber_titel" aria-label="Über diese App">
-          <img src="img/logo-auf-hell.webp" width="480" height="141" alt="Thomas Willwacher Fliesenlegermeister e.K.">
-        </button>
+        <div class="titel-unter">
+          <p data-t="app_unter">Nie wieder Zettel schreiben</p>
+          <button type="button" id="btnLogoKlein" class="logo-schild logo-schild-schmal" data-t-aria="ueber_titel" aria-label="Über diese App">
+            <img src="img/logo-auf-hell.webp" width="480" height="141" alt="Thomas Willwacher Fliesenlegermeister e.K.">
+          </button>
+          <span data-tw-version></span>
+        </div>
       </div>
       <button type="button" id="btnSprache" class="kopf-knopf sprach-knopf" data-t-aria="aria_sprache" aria-label="Sprache wählen">
         <svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg>

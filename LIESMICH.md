@@ -40,6 +40,7 @@ Ein kostenloses Programm von Thomas Willwacher Fliesenlegermeister e.K. · www.t
 | `img/logo-auf-hell.webp`, `img/logo-auf-dunkel.webp` | Firmenlogo in **Originalfarben** (schwarz/rot für hellen Grund, weiß/rot für den Dunkelmodus). Nie umfärben, beschneiden oder verzerren; Seitenverhältnis 480:141; Kopf-Schild 32 px (Handy) / 40 px (ab 720 px) hoch, „Über diese App“ 200 px breit |
 | `fonts/` | Schriften (lokal, OFL-Lizenz – siehe `OFL-*.txt`) |
 | `hilfe/videos/<sprache>/<thema>.mp4/.jpg`, `info.json` | Hilfe-Videos |
+| `lib/tw-version.js` | gemeinsamer TW-Baustein: Versionsanzeige und Hinweis „Neue Version“ (nicht von Hand ändern) |
 | `tools/` | Werkzeuge zum Bauen, Prüfen, Aufnehmen (werden von der App nicht geladen) |
 
 ### Gespeicherte Daten (nur im Browser, Präfix `ekl_`)
@@ -49,7 +50,14 @@ eigene Einträge bleiben so, wie sie getippt wurden. Geteilte Links übertragen 
 
 ## Pflege
 
-**Version erhöhen bei jeder Änderung:** `VERSION` in `app.js` **und** in `sw.js` (gleiche Nummer). Dadurch holt sich jedes Gerät beim nächsten Öffnen den neuen Stand automatisch (Service Worker mit `skipWaiting` / `clients.claim`, „Netz zuerst“).
+**Version erhöhen bei jeder Änderung:** nur an **einer** Stelle – `<meta name="tw-version" content="…">` in `index.html`.
+`app.js` liest die Nummer von dort (Fußzeile, Einstellungen) und registriert den Service Worker als `sw.js?v=<Version>`; `sw.js` bildet daraus den Cache-Namen `ekl-<Version>`.
+Dadurch holt sich jedes Gerät beim nächsten Öffnen den neuen Stand automatisch (Service Worker mit `skipWaiting` / `clients.claim`, „Netz zuerst“).
+
+**Versionsanzeige und Update-Hinweis:** gemeinsamer TW-Baustein `lib/tw-version.js` (Kanon-Datei `tw-business-suite/gemeinsam/tw-version.js`, unverändert kopieren, nicht abwandeln).
+Zeigt die laufende Version als kleine Pille im grünen Kopf (neben dem Logo-Schild bzw. Untertitel) und prüft alle 5 Minuten und beim Zurückkehren in die App,
+ob die veröffentlichte `index.html` eine andere `tw-version` hat – dann erscheint oben „Neue Version … – jetzt aktualisieren“ (Klick: Service Worker aktualisieren, neu laden).
+Die Sprache folgt der App-Sprache (`TWVersion.sprache()` in `texteAnwenden`); alle sechs Sprachen sind im Baustein enthalten. Keine Anfragen an fremde Server.
 
 **Katalog ändern** (neuer Artikel, neue Gruppe):
 1. In `katalog/quelle/de.txt` eintragen (Artikel mit Semikolon trennen).

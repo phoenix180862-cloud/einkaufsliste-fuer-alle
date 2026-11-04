@@ -26,7 +26,7 @@
   --gelb:#ffd23f; --gelb-text:#1b231e;
   --rot:#c0392b; --rot-text:#b03224; --rot-weich:#fbeae8;
   --bg:#f3f5f2; --flaeche:#ffffff; --flaeche-2:#eaefeb; --text:#1b231e; --leise:#5f6b63; --linie:#e2e7e3;
-  --kopf:#1f7a4d; --kopf-text:#ffffff; --kopf-leise:rgba(255,255,255,.82); --kopf-linie:rgba(255,255,255,.38);
+  --kopf:#1f7a4d; --kopf-text:#ffffff; --kopf-leise:rgba(255,255,255,.82); --kopf-linie:rgba(255,255,255,.38); --kopf-pille:rgba(0,0,0,.18);
   --schatten:0 1px 2px rgba(27,35,30,.05),0 3px 12px rgba(27,35,30,.07);
   --toast:#222822; --toast-text:#ffffff; --toast-knopf:#ffd23f;
   --fokus:#1a73e8;
@@ -175,7 +175,13 @@ a.knopf{text-decoration:none}
 .logo-schild{flex:none;border:0;background:#fff;border-radius:7px;padding:3px 6px;display:inline-flex;align-items:center;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.18)}
 .logo-schild img{display:block;height:26px;width:auto;aspect-ratio:480/141}
 .logo-schild-breit{display:none;margin-left:6px}
-.logo-schild-schmal{margin-top:5px}
+.logo-schild-schmal{margin-top:0}
+.titel-unter{display:flex;align-items:center;gap:8px;min-width:0;margin-top:5px}
+.titel-unter p{margin:0;min-width:0;flex:0 1 auto}
+/* Versions-Pille (lib/tw-version.js) im grünen Kopf */
+.kopf .twv-pille{flex:none;font-family:"Archivo Narrow","Archivo",sans-serif;font-size:13px;font-weight:600;padding:3px 9px;
+  background:var(--kopf-pille);border-color:var(--kopf-linie);color:var(--kopf-text)}
+.twv-balken{width:max-content} /* Update-Balken einzeilig statt auf halber Breite umbrechen */
 @media (max-width:719px){ .titel p{display:none} }
 @media (min-width:720px){
   .logo-schild-schmal{display:none}

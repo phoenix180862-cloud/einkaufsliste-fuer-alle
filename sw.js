@@ -1,13 +1,14 @@
 // Einkaufsliste – Service Worker: App-Hülle für schnellen Start und Offline-Betrieb.
-// Bei JEDER Änderung an der App die Versionsnummer erhöhen (gleich wie VERSION in app.js).
+// Versionsnummer NICHT hier ändern: sie steht nur in index.html (<meta name="tw-version">).
+// app.js registriert "sw.js?v=<Version>" – neue Version = neuer Service Worker und neuer Cache.
 // Strategie „Netz zuerst“: ist das Gerät online, kommt immer der neueste Stand; der Cache ist nur Rückfall.
-const VERSION = "1.2.0";
+const VERSION = new URL(self.location.href).searchParams.get("v") || "0";
 const CACHE = "ekl-" + VERSION;
 const PRAEFIX = "ekl-";            // nur eigene Caches anfassen – andere Apps derselben Adresse bleiben unberührt
 const HUELLE = [
   "./", "index.html", "app.css", "app.js", "texte.js", "manifest.webmanifest",
   "katalog/aufbau.js", "katalog/de.js", "katalog/en.js", "katalog/cs.js", "katalog/sk.js", "katalog/uk.js", "katalog/pl.js",
-  "img/logo-auf-hell.webp", "img/logo-auf-dunkel.webp",
+  "img/logo-auf-hell.webp", "img/logo-auf-dunkel.webp", "lib/tw-version.js",
   "icons/favicon.svg", "icons/favicon-32.png", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png",
   "fonts/archivo-latin-400-normal.woff2", "fonts/archivo-latin-600-normal.woff2", "fonts/archivo-latin-700-normal.woff2",
   "fonts/archivo-latin-ext-400-normal.woff2", "fonts/archivo-latin-ext-600-normal.woff2", "fonts/archivo-latin-ext-700-normal.woff2",
@@ -35,6 +36,8 @@ self.addEventListener("fetch", ev => {
   if (req.method !== "GET" || url.origin !== location.origin) return;
   // Hilfe-Videos (Teilabrufe) nicht über den Cache leiten
   if (req.headers.has("range") || url.pathname.includes("/hilfe/videos/")) return;
+  // Versionsprüfung (lib/tw-version.js, ?twv=…) direkt ans Netz – nicht zwischenspeichern
+  if (url.searchParams.has("twv")) return;
   ev.respondWith((async () => {
     try {
       const antwort = await fetch(req, { cache: "no-cache" });

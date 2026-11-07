@@ -8,7 +8,7 @@ const PRAEFIX = "ekl-";            // nur eigene Caches anfassen – andere Apps
 const HUELLE = [
   "./", "index.html", "app.css", "app.js", "texte.js", "manifest.webmanifest",
   "katalog/aufbau.js", "katalog/de.js", "katalog/en.js", "katalog/cs.js", "katalog/sk.js", "katalog/uk.js", "katalog/pl.js",
-  "img/logo-auf-hell.webp", "img/logo-auf-dunkel.webp", "lib/tw-version.js",
+  "img/logo-auf-hell.webp", "img/logo-auf-dunkel.webp", "img/logo-original-dunkel.webp", "lib/tw-version.js",
   "icons/favicon.svg", "icons/favicon-32.png", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png",
   "fonts/archivo-latin-400-normal.woff2", "fonts/archivo-latin-600-normal.woff2", "fonts/archivo-latin-700-normal.woff2",
   "fonts/archivo-latin-ext-400-normal.woff2", "fonts/archivo-latin-ext-600-normal.woff2", "fonts/archivo-latin-ext-700-normal.woff2",

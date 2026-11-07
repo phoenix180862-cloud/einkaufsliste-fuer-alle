@@ -177,8 +177,8 @@ def main():
         for breite, lo, hi in [(390, 28, 32), (1180, 36, 40)]:
             c = kontext(breite=breite, hoehe=844 if breite < 1000 else 820); pg = seite(c); pg.goto(BASE); pg.wait_for_timeout(500)
             L = pg.evaluate(logo_js)
-            pruefe(bool(L) and L['imKopf'] and L['n'] > 0 and L['src'] == 'img/logo-auf-hell.webp' and lo <= L['h'] <= hi and abs(L['iw'] / L['ih'] - 480 / 141) < 0.06 and L['rechts'] <= breite,
-                   f'{breite} px: Original-Logo auf weißem Schild im grünen Kopf, {L and round(L["h"])} px hoch, Seitenverhältnis original')
+            pruefe(bool(L) and L['imKopf'] and L['n'] > 0 and L['src'] == 'img/logo-auf-dunkel.webp' and lo <= L['h'] <= hi and abs(L['iw'] / L['ih'] - 480 / 141) < 0.06 and L['rechts'] <= breite,
+                   f'{breite} px: Original-Logo (weiß/rot) auf dunklem Schild im grünen Kopf, {L and round(L["h"])} px hoch, Seitenverhältnis original')
             if breite == 390:
                 pruefe(pg.locator('#firmenKarte, .firmen-karte').count() == 0, 'keine Firmenkarte (Liste und Leerzustand)')
                 pruefe(pg.is_visible('#leer') and pg.locator('#startChips .chip').count() == 6, 'Leere Liste: Leerzustand mit 6 Start-Vorschlägen')
@@ -186,7 +186,7 @@ def main():
                 pruefe(len(pg.evaluate('EKL.liste()')) == 1, 'Start-Vorschlag fügt hinzu')
                 pg.evaluate("document.documentElement.setAttribute('data-theme','dunkel')"); pg.wait_for_timeout(100)
                 L2 = pg.evaluate(logo_js); bg = pg.evaluate("getComputedStyle([...document.querySelectorAll('.logo-schild')].find(x => x.offsetParent)).backgroundColor")
-                pruefe(L2['src'] == 'img/logo-auf-hell.webp' and bg == 'rgb(255, 255, 255)', 'Dunkelmodus: weißes Schild mit Original-Logo')
+                pruefe(L2['src'] == 'img/logo-auf-dunkel.webp' and bg == 'rgb(17, 17, 17)', 'Dunkelmodus: dunkles Schild mit Original-Logo (Thomas, 07.11.2026)')
                 pg.evaluate("document.documentElement.removeAttribute('data-theme')")
                 pg.click('.logo-schild:visible'); pg.wait_for_timeout(300)
                 pruefe(pg.is_visible('#dlgEinst') and pg.evaluate("(() => { const r = document.getElementById('ueberTitel').getBoundingClientRect(); return r.top >= 0 && r.top < innerHeight; })()"), 'Logo antippen öffnet „Über diese App“')

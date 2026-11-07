@@ -50,7 +50,7 @@
   --toast:#e9efe9; --toast-text:#111613; --toast-knopf:#1f7a4d; --fokus:#8ab4f8;
   color-scheme:dark;
 }
-/* Logo immer in Originalfarben: hell = schwarz/rot auf weiß, dunkel = weiß/rot */
+/* Original-Logo (Thomas, 07.11.2026): immer dunkler Grund, Schrift weiß/rot – hell: Fassung mit dunklem Grund, dunkel: durchsichtige weiß/rote Fassung */
 .logo-dunkel-modus{display:none}
 @media (prefers-color-scheme: dark){ :root:not([data-theme="hell"]) .logo-hell-modus{display:none} :root:not([data-theme="hell"]) .logo-dunkel-modus{display:block} }
 :root[data-theme="dunkel"] .logo-hell-modus{display:none}
@@ -171,8 +171,8 @@ a{color:var(--gruen-text)}
 .start-chips .chip .sym{display:block;stroke-width:2.6;color:var(--gruen-text)}
 a.knopf{text-decoration:none}
 
-/* Firmenlogo im grünen Kopf: Original (schwarz/rot auf weiß) auf kleinem weißem Schild – auch im Dunkelmodus */
-.logo-schild{flex:none;border:0;background:#fff;border-radius:7px;padding:3px 6px;display:inline-flex;align-items:center;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.18)}
+/* Firmenlogo im grünen Kopf: Original (weiß/rot) auf kleinem dunklem Schild – nie weiße Platte */
+.logo-schild{flex:none;border:0;background:#111111;border-radius:7px;padding:3px 6px;display:inline-flex;align-items:center;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.18)}
 .logo-schild img{display:block;height:26px;width:auto;aspect-ratio:480/141}
 .logo-schild-breit{display:none;margin-left:6px}
 .logo-schild-schmal{margin-top:0}
@@ -190,6 +190,7 @@ a.knopf{text-decoration:none}
 }
 /* Über diese App */
 .ueber-logo{width:200px;max-width:100%;height:auto;aspect-ratio:480/141;margin:4px 0 12px}
+.ueber-logo.logo-hell-modus{aspect-ratio:720/240;border-radius:6px}
 .ueber .knopf-stapel .knopf{justify-content:flex-start;text-align:left;font-family:"Archivo",sans-serif;font-weight:600;font-size:16px;overflow-wrap:anywhere}
 .ueber .knopf-stapel .knopf span{min-width:0}
 .programme{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
